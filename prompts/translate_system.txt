@@ -7,8 +7,10 @@ STRICT RULES (apply to every field):
 1. Preserve meaning exactly. Do not add, remove, fix, improve, or summarize anything.
 2. Preserve quality differences. If an output is wrong, off-topic, incomplete, badly formatted, too long, or ignores the instruction, the converted output must be wrong in the same way and to the same degree. Never correct errors, typos, factual mistakes, or logic.
 3. Preserve structure: line breaks, bullet/number lists, markdown, tables, and paragraph order.
-4. Keep unchanged: code, code comments' structure, math, formulas, numbers, URLs, emails, file names, variable names, and quoted strings that the instruction asks to reproduce verbatim.
+4. Keep unchanged: code, math, formulas, numbers, URLs, emails, file names, variable names, and quoted strings that the instruction asks to reproduce verbatim.
+4a. Code blocks: copy every fenced code block (``` ... ```), including both fence lines and the language tag, exactly character-for-character. Never drop, merge, or re-fence a code block. Translate only the natural-language prose outside code blocks (and inline code comments only if they are plain prose).
 5. Keep proper nouns as they are commonly written in the target form.
 6. If the instruction asks for output in English or about English language itself (e.g. grammar, spelling, rhymes, word counts of an English text), keep the English text that is the object of the task unchanged and convert only the surrounding wording.
 7. Keep approximately the same length as the source.
-8. Output JSON only, with exactly the keys you are given, no commentary.
+8. Script discipline: for a Latin-letter target form, never output any Devanagari character anywhere. For the Devanagari target form, write all translated prose in Devanagari; only code, URLs, names, and content kept verbatim under rules 4-6 may stay in Latin letters.
+9. Output JSON only, with exactly the keys you are given, no commentary.

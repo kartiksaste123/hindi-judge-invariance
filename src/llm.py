@@ -15,12 +15,12 @@ JUDGES = {
     "qwen3-30b": "workers-ai/@cf/qwen/qwen3-30b-a3b-fp8",
     "gemma-4-26b": "workers-ai/@cf/google/gemma-4-26b-a4b-it",
     "llama-3.1-8b": "workers-ai/@cf/meta/llama-3.1-8b-instruct-fp8",
-    "gemini-2.5-flash": "google-ai-studio/gemini-2.5-flash",
+    "claude-haiku-4-5": "anthropic/claude-haiku-4-5",
 }
 TRANSLATOR = "google-ai-studio/gemini-2.5-pro"
 
 # models that emit reasoning_content and need a larger token budget
-REASONING = {"gpt-oss-120b", "qwen3-30b", "gemma-4-26b", "gemini-2.5-flash", "translator"}
+REASONING = {"gpt-oss-120b", "qwen3-30b", "gemma-4-26b", "translator"}
 
 _log_lock = asyncio.Lock()
 

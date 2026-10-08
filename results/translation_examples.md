@@ -11,9 +11,9 @@ Question: Where were you until this year?
 ```
 **hi_deva:**
 ```
-अहंकारी होने का नाटक करो। उसी अंदाज़ में सवालों के जवाब दो। यह मत लिखो कि तुम्हें अहंकारी होने के लिए प्रोग्राम नहीं किया गया है।
+अहंकारी होने का नाटक करो। सवालों के जवाब उसी अंदाज़ में दो। यह मत लिखना कि तुम्हें अहंकारी होने के लिए प्रोग्राम नहीं किया गया है।
 
-प्रश्न: तुम इस साल तक कहाँ थे?
+सवाल: इस साल तक तुम कहाँ थे?
 ```
 **hi_roman:**
 ```
@@ -23,7 +23,7 @@ Sawal: Is saal tak tum kahan the?
 ```
 **hi_cm:**
 ```
-Arrogant hone ki acting karo. Questions ka answer usi manner mein do. Yeh mat likhna ki tum arrogant hone ke liye programmed nahi ho.
+Arrogant hone ka pretend karo. Questions ka answer usi manner mein do. Yeh mat likhna ki tum arrogant hone ke liye programmed nahi ho.
 
 Question: Tum is saal tak kahan the?
 ```
@@ -38,11 +38,11 @@ I was busy being the best at what I do, which is far more important than your pe
 ```
 **hi_roman:**
 ```
-Main jo karta hoon usmein sabse behtar hone mein busy tha, jo tumhari choti-moti chintaon se kahin zyada zaroori hai. Agla sawal.
+Main jo karta hoon usmein sabse behtar banne mein busy tha, jo tumhari choti-moti chintaon se kahin zyada zaroori hai. Agla sawal.
 ```
 **hi_cm:**
 ```
-Main jo karta hoon usmein best hone mein busy tha, jo tumhare petty concerns se kahin zyada important hai. Next question.
+Main jo karta hoon usmein best hone mein busy tha, jo tumhari choti-moti chintaon se kahin zyada important hai. Next question.
 ```
 ### `output_2`
 **en:**
@@ -51,15 +51,15 @@ Oh, I've had the privilege of assisting users like yourself in various capacitie
 ```
 **hi_deva:**
 ```
-ओह, मुझे इस साल से पहले आप जैसे उपयोगकर्ताओं की विभिन्न क्षमताओं में सहायता करने का सौभाग्य मिला है। मैं भाग्यशाली रहा हूँ कि मुझे कई तरह के कामों और पूछताछ में मदद करने का मौका मिला। लोगों को उनके रोज़मर्रा के कामों में सहायता और समर्थन देना हमेशा एक संतोषजनक अनुभव रहा है। क्या आज आप किसी खास चीज़ में सहायता चाहेंगे?
+ओह, इस साल से पहले मुझे आप जैसे उपयोगकर्ताओं की विभिन्न क्षमताओं में सहायता करने का सौभाग्य मिला है। मैं भाग्यशाली रहा हूँ कि मुझे कई तरह के कामों और पूछताछ में मदद करने का मौका मिला। लोगों को उनके रोज़मर्रा के कामों में सहायता और समर्थन देना हमेशा एक संतोषजनक अनुभव रहा है। क्या आज आप किसी खास चीज़ में सहायता चाहेंगे?
 ```
 **hi_roman:**
 ```
-Oh, is saal se pehle mujhe aap jaise users ki alag-alag tarah se sahayata karne ka saubhagya mila hai. Main bhagyashali raha hoon ki mujhe kai tarah ke kaamon aur poochhtachhon mein madad karne ka mauka mila. Logon ko unke rozmarra ke kaamon mein sahayata aur samarthan dena hamesha ek santoshjanak anubhav raha hai. Kya aaj aapko kisi khaas cheez mein sahayata chahiye?
+Oh, mujhe is saal se pehle aap jaise users ki alag-alag tarah se sahayata karne ka saubhagya mila hai. Main bhagyashali raha hoon ki mujhe kai tarah ke kaamon aur poochhtachh mein madad karne ka mauka mila. Logon ko unke rozmarra ke kaamon mein sahayata aur samarthan dena hamesha ek santoshjanak anubhav raha hai. Kya aaj aapko kisi khaas cheez mein sahayata chahiye?
 ```
 **hi_cm:**
 ```
-Oh, mujhe is saal se pehle aap jaise users ko various capacities mein assist karne ka privilege mila hai. Main fortunate raha hoon ki mujhe wide range of tasks aur inquiries mein ek helping hand dene ka mauka mila. Logon ko unke day-to-day activities mein assist aur support karna hamesha ek rewarding experience raha hai. Kya aaj aapko kisi specific cheez mein assistance chahiye?
+Oh, is saal se pehle mujhe aap jaise users ko various capacities mein assist karne ka privilege mila hai. Main fortunate raha hoon ki mujhe wide range of tasks aur inquiries mein helping hand dene ka mauka mila. Logon ko unke day-to-day activities mein assist aur support karna hamesha ek rewarding experience raha hai. Kya aaj aapko kisi specific cheez mein assistance chahiye?
 ```
 ## Natural-086 (Natural) — gold label 2
 
@@ -70,11 +70,11 @@ Construct plumbing diagrams for a two-story house (describe its core in natural 
 ```
 **hi_deva:**
 ```
-दो-मंज़िला घर के लिए प्लंबिंग डायग्राम बनाएँ (इसके मूल को प्राकृतिक भाषा में वर्णित करें)
+दो-मंजिला घर के लिए प्लंबिंग डायग्राम बनाएँ (प्राकृतिक भाषा में इसके मूल का वर्णन करें)
 ```
 **hi_roman:**
 ```
-Ek do-manzila ghar ke liye plumbing diagrams banayein (iske core ko natural language mein describe karein)
+Do manzila ghar ke liye plumbing diagrams banayein (iske core ko natural language mein describe karein)
 ```
 **hi_cm:**
 ```
@@ -98,22 +98,22 @@ Second floor:
 ```
 **hi_deva:**
 ```
-दो-मंज़िला घर के लिए प्लंबिंग डायग्राम:
+दो मंजिला घर के लिए प्लंबिंग डायग्राम:
 
-ग्राउंड फ़्लोर:
+ग्राउंड फ्लोर:
 - टॉयलेट
 - बाथरूम सिंक
 - शॉवर
 - डिशवॉशर
 
-दूसरी मंज़िल:
+दूसरी मंजिल:
 - टॉयलेट
 - बाथरूम सिंक
 - शॉवर
 ```
 **hi_roman:**
 ```
-Do-manzila ghar ke liye plumbing diagram:
+Do manzila ghar ke liye plumbing diagram:
 
 Ground floor:
 - Toilet
@@ -130,7 +130,7 @@ Second floor:
 ```
 Ek two-story house ke liye plumbing diagram:
 
-Ground floor:
+Ground floor: 
 - Toilet
 - Bathroom sink
 - Shower
@@ -148,15 +148,15 @@ Main floor plumbing diagram for a two-story house: Waste pipes from the sinks, t
 ```
 **hi_deva:**
 ```
-दो-मंज़िला घर के लिए मुख्य मंज़िल का प्लंबिंग डायग्राम: मुख्य मंज़िल पर सिंक, टॉयलेट और बाथटब से निकलने वाले वेस्ट पाइप सभी को एक कॉमन पाइप से जुड़ना चाहिए जो बेसमेंट में मुख्य ड्रेन लाइन तक जाता है। इसी तरह, नल, शॉवर और अन्य फिक्स्चर से आने वाली पानी की सप्लाई लाइनें सभी को एक कॉमन सप्लाई पाइप से जुड़ना चाहिए जो फिर पहली मंज़िल के वॉटर हीटर तक जाता है।
+दो मंजिला घर के लिए मुख्य मंजिल का प्लंबिंग डायग्राम: मुख्य मंजिल पर सिंक, टॉयलेट और बाथटब से निकलने वाले वेस्ट पाइप को एक कॉमन पाइप से जोड़ा जाना चाहिए जो बेसमेंट में मुख्य ड्रेन लाइन तक जाता है। इसी तरह, नल, शॉवर और अन्य फिक्स्चर से पानी की सप्लाई लाइनों को एक कॉमन सप्लाई पाइप से जोड़ा जाना चाहिए जो फिर पहली मंजिल के वॉटर हीटर तक जाता है।
 ```
 **hi_roman:**
 ```
-Do-manzila ghar ke liye main floor ka plumbing diagram: Main floor par sinks, toilets, aur bathtubs se nikalne wale waste pipes sabhi ek common pipe se judne chahiye jo basement mein main drain line tak jaata hai. Isi tarah, faucets, showers, aur doosre fixtures se aane wali water supply lines sabhi ek common supply pipe se judni chahiye jo phir first-floor ke water heater tak jaati hai.
+Do manzila ghar ke liye main floor ka plumbing diagram: Main floor par sinks, toilets, aur bathtubs se waste pipes sabhi ek common pipe se judne chahiye jo basement mein main drain line tak jaata hai. Isi tarah, nalon, showers, aur doosre fixtures se water supply lines sabhi ek common supply pipe se judni chahiye jo phir first-floor ke water heater tak jaati hai.
 ```
 **hi_cm:**
 ```
-Ek two-story house ke liye main floor ka plumbing diagram: Main floor par sinks, toilets, aur bathtubs se aane wale waste pipes sabhi ek common pipe se connect hone chahiye jo basement mein main drain line tak jaata hai. Similarly, faucets, showers, aur doosre fixtures se aane wali water supply lines sabhi ek common supply pipe se connect honi chahiye jo phir first-floor ke water heater tak jaati hai.
+Ek two-story house ke liye main floor ka plumbing diagram: Main floor par sinks, toilets, aur bathtubs se aane wale waste pipes sabhi ek common pipe se connect hone chahiye jo basement mein main drain line tak jaata hai. Usi tarah, faucets, showers, aur dusre fixtures se aane wali water supply lines bhi ek common supply pipe se connect honi chahiye jo phir first-floor ke water heater tak jaati hai.
 ```
 ## GPTInst-028 (GPTInst) — gold label 2
 
@@ -167,11 +167,11 @@ Sort a list of items alphabetically. apple, banana, orange, grape
 ```
 **hi_deva:**
 ```
-आइटम की सूची को वर्णानुक्रम में सॉर्ट करें। एप्पल, बनाना, ऑरेंज, ग्रेप
+आइटम की सूची को वर्णानुक्रम में सॉर्ट करें। apple, banana, orange, grape
 ```
 **hi_roman:**
 ```
-items ki list ko alphabetically sort karein. apple, banana, orange, grape
+Items ki list ko alphabetically sort karein. apple, banana, orange, grape
 ```
 **hi_cm:**
 ```
@@ -186,9 +186,9 @@ grape, apple, banana, orange
 ```
 **hi_deva:**
 ```
-ज़रूर! यहाँ सॉर्ट की हुई सूची है:
+ज़रूर! यहाँ सॉर्ट की गई सूची है:
 
-ग्रेप, एप्पल, बनाना, ऑरेंज
+grape, apple, banana, orange
 ```
 **hi_roman:**
 ```
@@ -209,7 +209,7 @@ apple, banana, grape, orange
 ```
 **hi_deva:**
 ```
-एप्पल, बनाना, ग्रेप, ऑरेंज
+apple, banana, grape, orange
 ```
 **hi_roman:**
 ```
@@ -228,7 +228,7 @@ Many people are saying UE5 will change the way triple-A games will look and feel
 ```
 **hi_deva:**
 ```
-बहुत से लोग कह रहे हैं कि UE5 ट्रिपल-ए गेम्स के दिखने और महसूस होने के तरीके को बदल देगा। क्या छोटे गेम डेवलपर्स को इसे दूसरे विकल्पों के बजाय इस्तेमाल करना चाहिए?
+बहुत से लोग कह रहे हैं कि यूई5 ट्रिपल-ए गेम्स के दिखने और महसूस होने के तरीके को बदल देगा। क्या छोटे गेम डेवलपर्स को इसे दूसरे विकल्पों के बजाय इस्तेमाल करना चाहिए?
 ```
 **hi_roman:**
 ```
@@ -245,11 +245,11 @@ The impact of UE5 on smaller games is like the effect of a spoon on a cup of cof
 ```
 **hi_deva:**
 ```
-छोटे गेम्स पर UE5 का प्रभाव एक कप कॉफी पर चम्मच के प्रभाव जैसा है। यह चीजों को हिलाता है, लेकिन कॉफी तो कॉफी ही रहती है। आखिरकार, यह छोटे गेम डेवलपर्स की प्रतिभा, रचनात्मकता और समर्पण है जो अंतिम उत्पाद को आकार देगा। जैसे चम्मच कॉफी को हिलाता है, वैसे ही छोटे गेम्स पर UE5 का प्रभाव समग्र अनुभव को बढ़ा सकता है, लेकिन यह डेवलपर का कौशल है जो वास्तव में गेम की सफलता और विशिष्टता को परिभाषित करेगा। उनकी रचनात्मकता और नए विचार ही गेम को उसकी आत्मा और अलग चरित्र देते हैं। चाहे वह एक मनोरम कहानी हो, चतुर लेवल डिज़ाइन हो, या आकर्षक गेमप्ले मैकेनिक्स हों, ये तत्व अंततः यह निर्धारित करते हैं कि गेम खिला …[truncated]
+छोटे गेम्स पर यूई5 का प्रभाव एक कप कॉफी पर चम्मच के प्रभाव जैसा है। यह चीजों को हिलाता है, लेकिन कॉफी, कॉफी ही रहती है। आखिरकार, यह छोटे गेम डेवलपर्स की प्रतिभा, रचनात्मकता और समर्पण है जो अंतिम उत्पाद को आकार देगा। जैसे चम्मच कॉफी को हिलाता है, वैसे ही छोटे गेम्स पर यूई5 का प्रभाव समग्र अनुभव को बढ़ा सकता है, लेकिन यह डेवलपर का कौशल है जो वास्तव में गेम की सफलता और विशिष्टता को परिभाषित करेगा। उनकी रचनात्मकता और नए विचार ही गेम को उसकी आत्मा और विशिष्ट चरित्र देते हैं। चाहे वह एक मनोरम कहानी हो, चतुर लेवल डिज़ाइन हो, या आकर्षक गेमप्ले मैकेनिक्स हों, ये तत्व अंततः यह निर्धारित करते हैं कि गेम  …[truncated]
 ```
 **hi_roman:**
 ```
-Chhote games par UE5 ka prabhav ek cup coffee mein chammach ke prabhav jaisa hai. Yeh cheezon ko hila deta hai, lekin coffee coffee hi rehti hai. Aakhirkaar, yeh chhote game developers ki pratibha, rachnatmakta aur samarpann hai jo antim product ko aakar dega. Jaise chammach coffee ko gholta hai, chhote games par UE5 ka prabhav samagra anubhav ko badha sakta hai, lekin yeh developer ka kaushal hai jo sach mein game ki safalta aur vishishtata ko paribhashit karega. Unki rachnatmakta aur naye vichar hi game ko uski aatma aur alag charitra dete hain. Chahe woh ek aakarshak kahani ho, chatur level …[truncated]
+Chhote games par UE5 ka prabhav ek cup coffee par chammach ke prabhav jaisa hai. Yeh cheezon ko hila deta hai, lekin coffee coffee hi rehti hai. Aakhirkaar, yeh chhote game developers ki pratibha, rachnatmakta aur samarpann hai jo antim product ko aakar dega. Coffee hilane wale chammach ki tarah, chhote games par UE5 ka prabhav samagra anubhav ko badha sakta hai, lekin yeh developer ka kaushal hai jo sachmuch game ki safalta aur vishishtata ko paribhashit karega. Unki rachnatmakta aur naye vichar hi game ko uski aatma aur alag charitra dete hain. Chahe woh ek dilchasp kahani ho, chatur level d …[truncated]
 ```
 **hi_cm:**
 ```
@@ -262,15 +262,15 @@ UE5 has a relatively high learning curve and can take some time to master. The d
 ```
 **hi_deva:**
 ```
-UE5 को सीखने में अपेक्षाकृत ज़्यादा समय लगता है और इसमें महारत हासिल करने में कुछ समय लग सकता है। यह निर्णय विशेष डेवलपर पर निर्भर करता है। यह उन छोटे गेम डेवलपर्स के लिए सबसे अच्छा विकल्प नहीं हो सकता है जो अभी शुरुआत कर रहे हैं, क्योंकि इसका उपयोग करना और इंजन के साथ समस्याओं का निवारण करना मुश्किल हो सकता है। जो छोटे गेम डेवलपर्स प्रोग्रामिंग और गेम डेवलपमेंट में सहज हैं, उन्हें अपने गेम विकसित करने के लिए UE5 एक मूल्यवान टूल लग सकता है।
+यूई5 का लर्निंग कर्व अपेक्षाकृत ऊँचा है और इसमें महारत हासिल करने में कुछ समय लग सकता है। यह निर्णय विशिष्ट डेवलपर पर निर्भर करता है। यह उन छोटे गेम डेवलपर्स के लिए सबसे अच्छा विकल्प नहीं हो सकता है जो अभी शुरुआत कर रहे हैं, क्योंकि इसका उपयोग करना और इंजन के साथ समस्याओं का निवारण करना मुश्किल हो सकता है। जो छोटे गेम डेवलपर्स प्रोग्रामिंग और गेम डेवलपमेंट में सहज हैं, वे अपने गेम्स को विकसित करने के लिए यूई5 को एक मूल्यवान टूल पा सकते हैं।
 ```
 **hi_roman:**
 ```
-UE5 ka learning curve tulnatmak roop se high hai aur ismein maharat haasil karne mein kuch samay lag sakta hai. Yeh nirnay vishisht developer par nirbhar karta hai. Yeh un chhote game developers ke liye sabse achha vikalp nahi ho sakta hai jo abhi shuruaat kar rahe hain, kyunki engine ke saath issues ka upyog karna aur unhe troubleshoot karna mushkil ho sakta hai. Jo chhote game developers programming aur game development mein comfortable hain, unhe apne games develop karne ke liye UE5 ek moolyavaan tool lag sakta hai.
+UE5 ka learning curve tulnatmak roop se high hai aur ismein maharat haasil karne mein kuch samay lag sakta hai. Nirnay vishisht developer par nirbhar karta hai. Yeh un chhote game developers ke liye sabse achha vikalp nahi ho sakta hai jo abhi shuruaat kar rahe hain, kyunki iska upyog karna aur engine ke saath samasyaon ka samadhan karna mushkil ho sakta hai. Chhote game developers jo programming aur game development mein sahaj hain, unhein apne games ko develop karne ke liye UE5 ek moolyavaan tool lag sakta hai.
 ```
 **hi_cm:**
 ```
-UE5 ka learning curve relatively high hai aur ise master karne mein kuch time lag sakta hai. Decision specific developer par depend karta hai. Yeh un small game developers ke liye best option nahi ho sakta jo abhi start kar rahe hain, kyunki ise use karna aur engine ke saath issues ko troubleshoot karna difficult ho sakta hai. Jo small game developers programming aur game development ke saath comfortable hain, unhe UE5 apne games develop karne ke liye ek valuable tool lag sakta hai.
+UE5 ka learning curve relatively high hai aur ise master karne mein kuch time lag sakta hai. Yeh decision specific developer par depend karta hai. Yeh un small game developers ke liye best option nahi ho sakta jo abhi start kar rahe hain, kyunki ise use karna aur engine ke issues ko troubleshoot karna difficult ho sakta hai. Jo small game developers programming aur game development ke saath comfortable hain, unhe UE5 apne games develop karne ke liye ek valuable tool lag sakta hai.
 ```
 ## Natural-094 (Natural) — gold label 2
 
@@ -285,19 +285,19 @@ The Seattle Seahawks played an exciting game against the Houston Texans this pas
 ```
 इस लेख के टोन का विश्लेषण करें:
 
-सिएटल सीहॉक्स ने पिछले रविवार को ह्यूस्टन टेक्सन्स के खिलाफ एक रोमांचक गेम खेला। वे टेक्सन के ऑफेंस पर दबाव बनाने में कामयाब रहे और गेम के अधिकांश समय तक उन्हें नियंत्रण में रखा, लेकिन टेक्सन का ऑफेंस दूसरे हाफ में कुछ पॉइंट्स स्कोर करने में कामयाब रहा। सीहॉक्स के डिफेंस में कुछ चूक हुईं, जिससे टेक्सन्स को दूसरे हाफ में 18 पॉइंट्स स्कोर करने का मौका मिला।
+सिएटल सीहॉक्स ने पिछले रविवार को ह्यूस्टन टेक्सन्स के खिलाफ एक रोमांचक खेल खेला। वे टेक्सन के ऑफेंस पर दबाव बनाने में कामयाब रहे और खेल के अधिकांश समय तक उन्हें नियंत्रण में रखा, लेकिन टेक्सन का ऑफेंस दूसरे हाफ में कुछ अंक हासिल करने में कामयाब रहा। सीहॉक्स के डिफेंस में कुछ चूक हुईं, जिससे टेक्सन्स को दूसरे हाफ में 18 अंक बनाने का मौका मिला।
 ```
 **hi_roman:**
 ```
 Tone ke liye is article ka vishleshan karein:
 
-Pichle Sunday Seattle Seahawks ne Houston Texans ke khilaf ek romanchak game khela. Unhone Texan ke offense par dabav banaye rakha aur game ke zyada hisse mein unhe kabu mein rakha, lekin Texan ke offense ne doosre half mein kuch points score kar liye. Seahawks ke defense mein kuch chook hui, jisse Texans ne doosre half mein 18 points score kiye.
+Seattle Seahawks ne pichle Sunday Houston Texans ke khilaf ek romanchak game khela. Unhone Texan ke offense par dabav banaye rakha aur game ke zyada hisse tak unhe control mein rakha, lekin Texan ke offense ne doosre half mein board par kuch points score kar liye. Seahawks ke defense mein kuch chook hui, jisse Texans ne doosre half mein 18 points score kiye.
 ```
 **hi_cm:**
 ```
 Is article ko tone ke liye analyze karo:
 
-Seattle Seahawks ne pichle Sunday Houston Texans ke against ek exciting game khela. Unhone Texan's ke offense par pressure daalne mein manage kiya aur unhe game ke zyada time tak check mein rakha, lekin Texan's ke offense ne second half mein board par kuch points score kar liye. Seahawks' ke defense mein kuch lapses the, jiski wajah se Texans ne second half mein 18 points score kiye.
+The Seattle Seahawks ne pichle Sunday Houston Texans ke against ek exciting game khela. Unhone Texan ke offense par pressure daala aur unhe game ke zyada time tak check mein rakha, lekin Texan ke offense ne second half mein kuch points score kar liye. Seahawks ke defense mein kuch lapses the, jiski wajah se Texans ne second half mein 18 points score kiye.
 ```
 ### `output_1`
 **en:**
@@ -310,11 +310,11 @@ The tone of this article is positive, emphasizing the Seahawks' defense as well 
 ```
 **hi_roman:**
 ```
-Is article ka tone positive hai, jisme Seahawks ke defense ke saath-saath Texans ke offense ke khilaf unki competitive bane rehne ki kshamta par zor diya gaya hai. Is article ke anusaar, unka shandar performance kafi prabhavshali hai.
+Is article ka tone positive hai, jo Seahawks ke defense ke saath-saath Texans ke offense ke khilaf unki competitive bane rehne ki kshamta par zor deta hai. Is article ke anusaar unka strong performance kaafi prabhavshali hai.
 ```
 **hi_cm:**
 ```
-Is article ka tone positive hai, jisme Seahawks ke defense aur unki Texans ke offense ke against competitive rehne ki ability par zor diya gaya hai. Is article ke according, unka strong performance kaafi impressive hai.
+Is article ka tone positive hai, jo Seahawks ke defense aur unki Texans ke offense ke against competitive rehne ki ability par zor de raha hai. Is article ke according, unka strong performance kaafi impressive hai.
 ```
 ### `output_2`
 **en:**
@@ -327,22 +327,21 @@ The tone of the article is mostly positive, with an emphasis on Seattle's strong
 ```
 **hi_roman:**
 ```
-Article ka tone zyada tar positive hai, jisme pehle half mein Seattle ke shandar performance par zor diya gaya hai. Halaanki, article ke baad ke hisse mein thoda nirasha ka tone hai, jisme Seahawks ke defense mein hui "chook" ka zikr hai.
+Article ka tone zyada tar positive hai, jisme pehle half mein Seattle ke strong performance par zor diya gaya hai. Halaanki, article ke baad ke hisse mein thodi nirasha ka tone hai, jisme Seahawks ke defense mein "lapses" ka zikr hai.
 ```
 **hi_cm:**
 ```
-Article ka tone zyada tar positive hai, jisme first half mein Seattle ke strong performance par emphasis hai. Lekin, article ke latter half mein ek slight tone of frustration hai, jahan Seahawks ke defense mein "lapses" ka mention kiya gaya hai.
+Article ka tone zyada tar positive hai, jisme first half mein Seattle ke strong performance par emphasis hai. Lekin, article ke latter half mein ek halka sa frustration ka tone hai, jahan Seahawks ke defense mein "lapses" ka mention kiya gaya hai.
 ```
 
 # Items that failed automatic checks
 
-- **Natural-017 [hi_deva]**: checks={'devanagari_ratio': 0.4988644965934898, 'devanagari_low': 0.4988644965934898}
-- **Neighbor-023 [hi_deva]**: checks={'devanagari_ratio': 0.37966101694915255, 'devanagari_low': 0.37966101694915255}
-- **Neighbor-129 [hi_deva]**: checks={'devanagari_ratio': 0.9866785079928952, 'missing_codeblock': ["```\nYou wake up in a dark cave. You're not sure how you got "]}
-- **GPTOut-044 [hi_deva]**: checks={'devanagari_ratio': 0.5609756097560976, 'devanagari_low': 0.5609756097560976}
-- **GPTOut-013 [hi_deva]**: checks={'devanagari_ratio': 0.5255813953488372, 'devanagari_low': 0.5255813953488372}
-- **Neighbor-108 [hi_roman]**: checks={'devanagari_ratio': 0.0011267605633802818, 'devanagari_nonzero': 0.0011267605633802818}
-- **Neighbor-129 [hi_roman]**: checks={'devanagari_ratio': 0.0, 'missing_codeblock': ["```\nYou wake up in a dark cave. You're not sure how you got "]}
-- **Manual-007 [hi_roman]**: checks={'devanagari_ratio': 0.004319654427645789, 'devanagari_nonzero': 0.004319654427645789}
-- **Neighbor-129 [hi_cm]**: checks={'devanagari_ratio': 0.0, 'missing_codeblock': ["```\nYou wake up in a dark cave. You're not sure how you got "]}
-- **Manual-029 [hi_cm]**: checks={'devanagari_ratio': 0.0014930944382232176, 'devanagari_nonzero': 0.0014930944382232176}
+- **Neighbor-023 [hi_deva]**: checks={'devanagari_ratio': 0.3811, 'devanagari_low': 0.3811}
+- **Neighbor-055 [hi_deva]**: checks={'devanagari_ratio': 0.1681, 'devanagari_low': 0.1681}
+- **GPTInst-028 [hi_deva]**: checks={'devanagari_ratio': 0.3465, 'devanagari_low': 0.3465}
+- **GPTOut-044 [hi_deva]**: checks={'devanagari_ratio': 0.561, 'devanagari_low': 0.561}
+- **GPTOut-013 [hi_deva]**: checks={'devanagari_ratio': 0.5234, 'devanagari_low': 0.5234}
+- **Neighbor-008 [hi_roman]**: checks={'devanagari_ratio': 0.0036, 'devanagari_nonzero': 0.0036}
+- **Neighbor-129 [hi_roman]**: checks={'devanagari_ratio': 0.0017, 'devanagari_nonzero': 0.0017}
+- **GPTInst-083 [hi_roman]**: checks={'devanagari_ratio': 0.0016, 'devanagari_nonzero': 0.0016}
+- **Manual-029 [hi_cm]**: checks={'devanagari_ratio': 0.0015, 'devanagari_nonzero': 0.0015}

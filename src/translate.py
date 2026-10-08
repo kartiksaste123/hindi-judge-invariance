@@ -9,10 +9,24 @@ FIELDS = ["input", "output_1", "output_2"]
 DEVA = re.compile(r"[ऀ-ॿ]")
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 CODE_RE = re.compile(r"```.*?```", re.S)
+INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
+PROMPT_FILES = ["translate_system.txt", "translate_user.txt", "variants.json"]
+
+import hashlib
+PROMPT_VERSION = "v2:" + hashlib.sha1(
+    "".join((ROOT / "prompts" / f).read_text() for f in PROMPT_FILES).encode()
+).hexdigest()[:12]
+
+
+def strip_non_prose(text):
+    text = CODE_RE.sub(" ", text)
+    text = INLINE_CODE_RE.sub(" ", text)
+    text = URL_RE.sub(" ", text)
+    return text
 
 
 def deva_ratio(text):
-    letters = [c for c in text if c.isalpha()]
+    letters = [c for c in strip_non_prose(text) if c.isalpha()]
     if not letters:
         return 0.0
     return sum(1 for c in letters if DEVA.match(c)) / len(letters)
@@ -22,11 +36,11 @@ def check_item(src, out, variant):
     fails = {}
     joined = "".join(out[f] for f in FIELDS)
     dr = deva_ratio(joined)
-    fails["devanagari_ratio"] = dr
+    fails["devanagari_ratio"] = round(dr, 4)
     if variant == "hi_deva" and dr < 0.6:
-        fails["devanagari_low"] = dr
+        fails["devanagari_low"] = round(dr, 4)
     if variant in ("hi_roman", "hi_cm") and dr != 0:
-        fails["devanagari_nonzero"] = dr
+        fails["devanagari_nonzero"] = round(dr, 4)
     for f in FIELDS:
         en, tr = src[f], out[f]
         if not (tr or "").strip():
@@ -37,10 +51,15 @@ def check_item(src, out, variant):
             fails[f"len_ratio:{f}"] = round(lr, 3)
         for u in URL_RE.findall(en):
             if u not in tr:
-                fails.setdefault("missing_url", []).append(u)
-        for cb in CODE_RE.findall(en):
-            if cb not in tr:
-                fails.setdefault("missing_codeblock", []).append(cb[:60])
+                fails.setdefault(f"missing_url:{f}", []).append(u)
+        src_blocks = CODE_RE.findall(en)
+        tr_blocks = CODE_RE.findall(tr)
+        if len(src_blocks) != len(tr_blocks):
+            fails[f"codeblock_count:{f}"] = [len(src_blocks), len(tr_blocks)]
+        else:
+            for k, (sb, tb) in enumerate(zip(src_blocks, tr_blocks)):
+                if sb != tb:
+                    fails.setdefault(f"codeblock_mismatch:{f}", []).append(k)
     failed = any(k != "devanagari_ratio" for k in fails)
     return fails, failed
 
@@ -52,7 +71,8 @@ async def one(client, sem, item, variant, vspec, sys_tpl, usr_tpl):
     tag = f"trans:{item['id']}:{variant}"
     text, resp, err = await chat(client, sem, TRANSLATOR, system, user,
                                  max_tokens=8192, json_mode=True, tag=tag)
-    rec = {"id": item["id"], "subset": item["subset"], "variant": variant}
+    rec = {"id": item["id"], "subset": item["subset"], "variant": variant,
+           "prompt_version": PROMPT_VERSION}
     if err:
         rec["error"] = err
         return rec
