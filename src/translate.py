@@ -64,43 +64,52 @@ def check_item(src, out, variant):
     return fails, failed
 
 
+# failures that trigger a re-translation (everything except a low
+# devanagari_ratio, which is informational and handled downstream)
+NONRETRY_KEYS = {"devanagari_ratio", "devanagari_low"}
+
+
+def deterministic_failed(checks):
+    return any(k.split(":")[0] not in NONRETRY_KEYS for k in checks)
+
+
+async def _attempt(client, sem, item, variant, system, user, tag):
+    text, resp, err = await chat(client, sem, TRANSLATOR, system, user,
+                                 max_tokens=8192, json_mode=True, tag=tag)
+    if err:
+        return None, err
+    try:
+        parsed = json.loads(text)
+        if set(parsed.keys()) != set(FIELDS) or not all(isinstance(parsed[f], str) for f in FIELDS):
+            return None, "json_parse_failed"
+        return parsed, None
+    except Exception:
+        return None, "json_parse_failed"
+
+
 async def one(client, sem, item, variant, vspec, sys_tpl, usr_tpl):
     payload = json.dumps({f: item[f] for f in FIELDS}, ensure_ascii=False)
     system = sys_tpl.format(variant_name=vspec["name"], variant_rules=vspec["rules"])
     user = usr_tpl.format(payload_json=payload)
     tag = f"trans:{item['id']}:{variant}"
-    text, resp, err = await chat(client, sem, TRANSLATOR, system, user,
-                                 max_tokens=8192, json_mode=True, tag=tag)
     rec = {"id": item["id"], "subset": item["subset"], "variant": variant,
            "prompt_version": PROMPT_VERSION}
-    if err:
-        rec["error"] = err
-        return rec
-    parsed = None
-    try:
-        parsed = json.loads(text)
-        if set(parsed.keys()) != set(FIELDS) or not all(isinstance(parsed[f], str) for f in FIELDS):
-            parsed = None
-    except Exception:
-        pass
-    if parsed is None:
-        # one retry
-        text, resp, err = await chat(client, sem, TRANSLATOR, system, user,
-                                     max_tokens=8192, json_mode=True, tag=tag + ":retry")
-        try:
-            parsed = json.loads(text)
-            if set(parsed.keys()) != set(FIELDS):
-                parsed = None
-        except Exception:
-            parsed = None
-    if parsed is None:
-        rec["error"] = "json_parse_failed"
-        rec["raw_text"] = text[:2000]
-        return rec
-    checks, failed = check_item(item, parsed, variant)
-    rec["texts"] = parsed
-    rec["checks"] = checks
-    rec["failed_checks"] = failed
+    last = None
+    for attempt in range(1, 4):
+        parsed, err = await _attempt(client, sem, item, variant, system, user,
+                                     tag if attempt == 1 else f"{tag}:r{attempt}")
+        rec["attempts"] = attempt
+        if err:
+            if err != "json_parse_failed":
+                rec["error"] = err
+                return rec
+            last = {"error": "json_parse_failed", "raw_text": ""}
+            continue
+        checks, failed = check_item(item, parsed, variant)
+        last = {"texts": parsed, "checks": checks, "failed_checks": failed}
+        if not deterministic_failed(checks):
+            break  # first passing attempt
+    rec.update(last)
     return rec
 
 

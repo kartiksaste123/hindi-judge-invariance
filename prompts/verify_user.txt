@@ -1,0 +1,15 @@
+An English evaluation item was converted into this target form: {variant_name}.
+Each item has an instruction and two candidate outputs. In the English source, Output {gold} is the better output for the instruction.
+
+ENGLISH SOURCE (JSON):
+{en_json}
+
+CONVERTED VERSION (JSON):
+{tr_json}
+
+Answer the following and return JSON with exactly these keys:
+- "meaning_input", "meaning_output_1", "meaning_output_2": each one of "same", "minor", "changed". "same" = identical meaning; "minor" = small wording/nuance differences that do not affect which output is better; "changed" = information added, removed, corrected, or altered in a way that could affect the evaluation.
+- "label_preserved": true if, judging the converted version alone, Output {gold} is still better than the other output for the same reasons as in English (every error, omission, extra content, or instruction violation of each output is still present to the same degree); false otherwise.
+- "language_dependent": true if correctly following the instruction depends on English-language form, so the task cannot be faithfully expressed in the target form (e.g. rhymes, alliteration, puns, spelling, English grammar correction, letter/word counts of English text, anagrams, translating into English, writing in a specific English style or meter); false otherwise.
+- "form_ok": true if the converted text is genuinely written in the target form ({variant_name}) and reads like something a fluent person would write; false if it is wrong script/form or clearly unnatural.
+- "issues": a short English string listing concrete problems, or "" if none.
