@@ -1,0 +1,14 @@
+{
+ "hi_deva": {
+  "name": "Hindi in Devanagari script",
+  "rules": "Write natural, everyday standard Hindi in Devanagari script, as an educated Indian speaker would write it. Avoid overly Sanskritized formal words when a common word exists. Common technical words with no everyday Hindi equivalent may stay as English words written in Devanagari (e.g. कंप्यूटर, ईमेल)."
+ },
+ "hi_roman": {
+  "name": "Romanized Hindi (Hindi written in Latin/English letters)",
+  "rules": "Write the same natural Hindi you would write in Devanagari, but in Latin letters, as Indians type Hindi on phones (e.g. 'Mujhe yeh samajh nahi aaya', 'aap kya kar rahe ho'). Use informal common spellings, not academic transliteration (no diacritics like ā, ṣ). Keep English words only where a Hindi speaker would normally keep them (e.g. computer, email); do NOT otherwise mix English. Do not use any Devanagari characters."
+ },
+ "hi_cm": {
+  "name": "Code-mixed Hinglish (Hindi-English mixing in Latin letters)",
+  "rules": "Write the way urban Indians naturally chat on WhatsApp: Hindi grammar and function words (hai, ka, ko, mein, karo, nahi) mixed with many English content words and phrases (e.g. 'Is problem ko solve karne ke liye pehle input check karo', 'Mujhe ek short summary chahiye'). Roughly 30-50% of the words should be English. All in Latin letters; no Devanagari. It must sound natural, not like word-by-word substitution."
+ }
+}
