@@ -1,0 +1,7 @@
+A previous conversion of this item had problems. An independent auditor compared it with the English source and reported:
+{issues}
+
+Previous conversion (JSON):
+{prev_json}
+
+Produce a new conversion of the ORIGINAL English item above that fixes these fidelity problems. Follow all the strict rules. Stay faithful to the English source: do not make any output better or worse than it is in English, and do not try to satisfy the auditor beyond restoring faithfulness to the source.

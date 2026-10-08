@@ -74,7 +74,7 @@ for v in VARIANTS:
     with open(hc_dir / f"sheet_{v}.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["id", "subset", "field", "english", "converted", "auto_status",
-                    "auto_issues", "meaning(Yes/Partly/No)",
+                    "auto_issues", "repaired", "meaning(Yes/Partly/No)",
                     "label(Yes/No)", "naturalness(1-5)", "notes"])
         for i in sorted(en):
             if langdep[i]:
@@ -86,6 +86,7 @@ for v in VARIANTS:
                 w.writerow([i, en[i]["subset"], fld, en[i][fld],
                             texts.get(fld, ""), s if fld == "input" else "",
                             issues if fld == "input" else "",
+                            str((trans[v].get(i) or {}).get("repaired", "")) if fld == "input" else "",
                             "", "", "", ""])
 
 # crosstab: langdep vs v2 low-deva flag

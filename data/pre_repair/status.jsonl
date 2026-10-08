@@ -1,0 +1,1257 @@
+{"id": "GPTInst-000", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-000", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-000", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-001", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-001", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-001", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-002", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-002", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-002", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-003", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-003", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-003", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-004", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-004", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-004", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-005", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-005", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-005", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-006", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-006", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-006", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-007", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-007", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-007", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-008", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-008", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-008", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-009", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-009", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-009", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-010", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-010", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-010", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-011", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-011", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-011", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-012", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-012", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-012", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-013", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-013", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-013", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-014", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-014", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-014", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-015", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-015", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-015", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-016", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-016", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-016", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-017", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-017", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-017", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-018", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-018", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-018", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-019", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-019", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-019", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-020", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-020", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-020", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-021", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-021", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-021", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-022", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-022", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-022", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-023", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-023", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-023", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-024", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-024", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-024", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-025", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-025", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-025", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-026", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-026", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-026", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-027", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-027", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-027", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "GPTInst-028", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-028", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTInst-028", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-029", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-029", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-029", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-030", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-030", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-030", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-031", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-031", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-031", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-032", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-032", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-032", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-033", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-033", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-033", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-034", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-034", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-034", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-035", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-035", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-035", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-036", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-036", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-036", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-037", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-037", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-037", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-038", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-038", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-038", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-039", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-039", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-039", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-040", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-040", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-040", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-041", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-041", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-041", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-042", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-042", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-042", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-043", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-043", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-043", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-044", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-044", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-044", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-045", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-045", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-045", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-046", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-046", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-046", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-047", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-047", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-047", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-048", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-048", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-048", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-049", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-049", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-049", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-050", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-050", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-050", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-051", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-051", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-051", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-052", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-052", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-052", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-053", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-053", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-053", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-054", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-054", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-054", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-055", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-055", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-055", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-056", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-056", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-056", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-057", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-057", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-057", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-058", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved", "verifier:form_ok"]}
+{"id": "GPTInst-058", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved", "verifier:form_ok"]}
+{"id": "GPTInst-058", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved", "verifier:form_ok"]}
+{"id": "GPTInst-059", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-059", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-059", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-060", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-060", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-060", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-061", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-061", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-061", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-062", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-062", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-062", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-063", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "GPTInst-063", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-063", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-064", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-064", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-064", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-065", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-065", "variant": "hi_deva", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-065", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-066", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-066", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-066", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-067", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-067", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-067", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-068", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-068", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-068", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-069", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-069", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-069", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-070", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-070", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-070", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-071", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-071", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-071", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-072", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-072", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-072", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-073", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-073", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-073", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-074", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-074", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-074", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-075", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-075", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-075", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-076", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-076", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-076", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "GPTInst-077", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-077", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-077", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-078", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-078", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-078", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-079", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-079", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-079", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_translation", "no_verdict"]}
+{"id": "GPTInst-080", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-080", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-080", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-081", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-081", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-081", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-082", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-082", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-082", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-083", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-083", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-083", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:meaning_input=changed", "verifier:meaning_output_1=changed"]}
+{"id": "GPTInst-084", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-084", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-084", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-085", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-085", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-085", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-086", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-086", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-086", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTInst-087", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTInst-087", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-087", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-088", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-088", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-088", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-089", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-089", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-089", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTInst-090", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-090", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-090", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTInst-091", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTInst-091", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTInst-091", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-000", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTOut-000", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-000", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "GPTOut-001", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-001", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-001", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-002", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-002", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-002", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-003", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-003", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-003", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-004", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-004", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-004", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-005", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-005", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-005", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-006", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-006", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-006", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-007", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-007", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-007", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTOut-008", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-008", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-008", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-009", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-009", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-009", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-010", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-010", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-010", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-011", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-011", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-011", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-012", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-012", "variant": "hi_deva", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTOut-012", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTOut-013", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-013", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTOut-013", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-014", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-014", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low", "verifier:form_ok"]}
+{"id": "GPTOut-014", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-015", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-015", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-015", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-016", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-016", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-016", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-017", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-017", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-017", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-018", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-018", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-018", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-019", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-019", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTOut-019", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-020", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed"]}
+{"id": "GPTOut-020", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low", "no_verdict"]}
+{"id": "GPTOut-020", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "GPTOut-021", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-021", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-021", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-022", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-022", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-022", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-023", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-023", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-023", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-024", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-024", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-024", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTOut-025", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-025", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-025", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-026", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-026", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTOut-026", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-027", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-027", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-027", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-028", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-028", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-028", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-029", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-029", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-029", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-030", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-030", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-030", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-031", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-031", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-031", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-032", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-032", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-032", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-033", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "GPTOut-033", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-033", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-034", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-034", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-034", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-035", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-035", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-035", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-036", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-036", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-036", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-037", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-037", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-037", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-038", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-038", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-038", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-039", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-039", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-039", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-040", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-040", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-040", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-041", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-041", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-041", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-042", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-042", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-042", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-043", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-043", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "GPTOut-043", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-044", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-044", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-044", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-045", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "GPTOut-045", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low", "verifier:form_ok"]}
+{"id": "GPTOut-045", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "GPTOut-046", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-046", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "GPTOut-046", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-000", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-000", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-000", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-001", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-001", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-001", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-002", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-002", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-002", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-003", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-003", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-003", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-004", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-004", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-004", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-005", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-005", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-005", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-006", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-006", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-006", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-007", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-007", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-007", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-008", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-008", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-008", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-009", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-009", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Manual-009", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-010", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-010", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-010", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-011", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-011", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-011", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-012", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-012", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-012", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-013", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-013", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-013", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-014", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-014", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-014", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-015", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-015", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-015", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Manual-016", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-016", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-016", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-017", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-017", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-017", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-018", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-018", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-018", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-019", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-019", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-019", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-020", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-020", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-020", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-021", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-021", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-021", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-022", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-022", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-022", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-023", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-023", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-023", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-024", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-024", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Manual-024", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Manual-025", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-025", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-025", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-026", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-026", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-026", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-027", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Manual-027", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-027", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-028", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Manual-028", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-028", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:form_ok"]}
+{"id": "Manual-029", "variant": "hi_cm", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Manual-029", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-029", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-030", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-030", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-030", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-031", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-031", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:label_preserved"]}
+{"id": "Manual-031", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-032", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-032", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-032", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-033", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-033", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-033", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Manual-034", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-034", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-034", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-035", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-035", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-035", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-036", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Manual-036", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Manual-036", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Manual-037", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-037", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-037", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-038", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-038", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-038", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-039", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-039", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-039", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Manual-040", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-040", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-040", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-041", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-041", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-041", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-042", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-042", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-042", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-043", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-043", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-043", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-044", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-044", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Manual-044", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Manual-045", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Manual-045", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Manual-045", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-000", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-000", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-000", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-001", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-001", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-001", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-002", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-002", "variant": "hi_deva", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Natural-002", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-003", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-003", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-003", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-004", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-004", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-004", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-005", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-005", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-005", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-006", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-006", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-006", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-007", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-007", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-007", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_translation", "no_verdict"]}
+{"id": "Natural-008", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-008", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-008", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-009", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Natural-009", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-009", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-010", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-010", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-010", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-011", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-011", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-011", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-012", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-012", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-012", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-013", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-013", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "Natural-013", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-014", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-014", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-014", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-015", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-015", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-015", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-016", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-016", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-016", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-017", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-017", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-017", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-018", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-018", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-018", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-019", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-019", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-019", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-020", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-020", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-020", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-021", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-021", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-021", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-022", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-022", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-022", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Natural-023", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-023", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-023", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-024", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-024", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-024", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-025", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-025", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-025", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-026", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-026", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-026", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-027", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-027", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-027", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Natural-028", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-028", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-028", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-029", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-029", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-029", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-030", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-030", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-030", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-031", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-031", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-031", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-032", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-032", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-032", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-033", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-033", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-033", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-034", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-034", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-034", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-035", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-035", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:form_ok"]}
+{"id": "Natural-035", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-036", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-036", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-036", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-037", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-037", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-037", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-038", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-038", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-038", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-039", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-039", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-039", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-040", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-040", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-040", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-041", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-041", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-041", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-042", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-042", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:form_ok"]}
+{"id": "Natural-042", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-043", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-043", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-043", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-044", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-044", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-044", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-045", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-045", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low", "verifier:form_ok"]}
+{"id": "Natural-045", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-046", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-046", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-046", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:form_ok"]}
+{"id": "Natural-047", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-047", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-047", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Natural-048", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-048", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-048", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-049", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-049", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-049", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-050", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-050", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-050", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-051", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-051", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-051", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-052", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-052", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-052", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-053", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-053", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-053", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-054", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-054", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-054", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-055", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-055", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-055", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-056", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-056", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-056", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-057", "variant": "hi_cm", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Natural-057", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-057", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-058", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-058", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-058", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-059", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-059", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-059", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-060", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-060", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-060", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-061", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-061", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-061", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-062", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-062", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-062", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-063", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-063", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-063", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-064", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-064", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-064", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-065", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-065", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-065", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-066", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-066", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-066", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-067", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-067", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-067", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-068", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-068", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-068", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-069", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-069", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-069", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-070", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-070", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-070", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-071", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-071", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-071", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-072", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-072", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-072", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-073", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-073", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-073", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-074", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-074", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-074", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-075", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-075", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-075", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-076", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-076", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-076", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-077", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-077", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-077", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Natural-078", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-078", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-078", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-079", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-079", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-079", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-080", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-080", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-080", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-081", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-081", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-081", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-082", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-082", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-082", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-083", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-083", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-083", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-084", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-084", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-084", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-085", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-085", "variant": "hi_deva", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Natural-085", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-086", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-086", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-086", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-087", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-087", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-087", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-088", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-088", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-088", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-089", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "Natural-089", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-089", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-090", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-090", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-090", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-091", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-091", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-091", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-092", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-092", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-092", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-093", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-093", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-093", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-094", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-094", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-094", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-095", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-095", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-095", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-096", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-096", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-096", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed"]}
+{"id": "Natural-097", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-097", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-097", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-098", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Natural-098", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Natural-098", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Natural-099", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-099", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Natural-099", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-000", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-000", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-000", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-001", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-001", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-001", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-002", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-002", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-002", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Neighbor-003", "variant": "hi_cm", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Neighbor-003", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-003", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-004", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-004", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-004", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-005", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-005", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-005", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-006", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-006", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-006", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-007", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-007", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-007", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-008", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-008", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-008", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Neighbor-009", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-009", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-009", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-010", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-010", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-010", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-011", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-011", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-011", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-012", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-012", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-012", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-013", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-013", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:form_ok"]}
+{"id": "Neighbor-013", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-014", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-014", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-014", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-015", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-015", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-015", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-016", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-016", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-016", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-017", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-017", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-017", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-018", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-018", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-018", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-019", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-019", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-019", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-020", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-020", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-020", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:form_ok"]}
+{"id": "Neighbor-021", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-021", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-021", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-022", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-022", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-022", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-023", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "Neighbor-023", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-023", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-024", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-024", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-024", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-025", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-025", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-025", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-026", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-026", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-026", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-027", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-027", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-027", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-028", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-028", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-028", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-029", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-029", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-029", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-030", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-030", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-030", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-031", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-031", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-031", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-032", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-032", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-032", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-033", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-033", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-033", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-034", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-034", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-034", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:form_ok"]}
+{"id": "Neighbor-035", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-035", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-035", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-036", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-036", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-036", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-037", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-037", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-037", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-038", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-038", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-038", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-039", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-039", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-039", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-040", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-040", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-040", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-041", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-041", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-041", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-042", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-042", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-042", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-043", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-043", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-043", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-044", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-044", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-044", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-045", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-045", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-045", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-046", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-046", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-046", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-047", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-047", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-047", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Neighbor-048", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-048", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-048", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-049", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-049", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-049", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-050", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-050", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-050", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-051", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-051", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-051", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-052", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-052", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-052", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-053", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-053", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-053", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-054", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-054", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-054", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-055", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-055", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-055", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-056", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-056", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:meaning_output_2=changed", "verifier:label_preserved", "verifier:form_ok"]}
+{"id": "Neighbor-056", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-057", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-057", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-057", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-058", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-058", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:len_ratio:output_2"]}
+{"id": "Neighbor-058", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-059", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-059", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-059", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-060", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-060", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-060", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-061", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-061", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-061", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-062", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-062", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-062", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-063", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-063", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-063", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-064", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-064", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-064", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-065", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-065", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-065", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-066", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-066", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-066", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-067", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-067", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-067", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-068", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-068", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-068", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-069", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-069", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-069", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-070", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-070", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-070", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-071", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-071", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-071", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-072", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-072", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-072", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-073", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-073", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-073", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-074", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-074", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-074", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-075", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-075", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-075", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-076", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-076", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-076", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-077", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-077", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-077", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-078", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-078", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-078", "variant": "hi_roman", "status": "needs_review", "reasons": ["no_verdict"]}
+{"id": "Neighbor-079", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-079", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-079", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-080", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-080", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:label_preserved"]}
+{"id": "Neighbor-080", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-081", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-081", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-081", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-082", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-082", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-082", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-083", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-083", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-083", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-084", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-084", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-084", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-085", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-085", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-085", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-086", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-086", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-086", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:form_ok"]}
+{"id": "Neighbor-087", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-087", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-087", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-088", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-088", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-088", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-089", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-089", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-089", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-090", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-090", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-090", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-091", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-091", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-091", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-092", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-092", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-092", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-093", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-093", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-093", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-094", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-094", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-094", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-095", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-095", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-095", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-096", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-096", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-096", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-097", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-097", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-097", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-098", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-098", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-098", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-099", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-099", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-099", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-100", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-100", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-100", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_input=changed"]}
+{"id": "Neighbor-101", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-101", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-101", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero", "verifier:meaning_output_2=changed", "verifier:label_preserved", "verifier:form_ok"]}
+{"id": "Neighbor-102", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-102", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-102", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-103", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-103", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-103", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-104", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-104", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-104", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-105", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-105", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-105", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-106", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-106", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-106", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-107", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-107", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-107", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-108", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-108", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-108", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-109", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-109", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-109", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-110", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-110", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-110", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-111", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-111", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-111", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-112", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-112", "variant": "hi_deva", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-112", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_2=changed"]}
+{"id": "Neighbor-113", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-113", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-113", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-114", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-114", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-114", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-115", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-115", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-115", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-116", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-116", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-116", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-117", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-117", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-117", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-118", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-118", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-118", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-119", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-119", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-119", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-120", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_input=changed", "verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-120", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-120", "variant": "hi_roman", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-121", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-121", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-121", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-122", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-122", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-122", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-123", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-123", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-123", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-124", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-124", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-124", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-125", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-125", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-125", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-126", "variant": "hi_cm", "status": "needs_review", "reasons": ["verifier:meaning_output_1=changed", "verifier:label_preserved"]}
+{"id": "Neighbor-126", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-126", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-127", "variant": "hi_cm", "status": "needs_review", "reasons": ["check:len_ratio:input"]}
+{"id": "Neighbor-127", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-127", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-128", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-128", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-128", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-129", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-129", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-129", "variant": "hi_roman", "status": "needs_review", "reasons": ["check:devanagari_nonzero"]}
+{"id": "Neighbor-130", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-130", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-130", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-131", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-131", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-131", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-132", "variant": "hi_cm", "status": "pass", "reasons": []}
+{"id": "Neighbor-132", "variant": "hi_deva", "status": "pass", "reasons": []}
+{"id": "Neighbor-132", "variant": "hi_roman", "status": "pass", "reasons": []}
+{"id": "Neighbor-133", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-133", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
+{"id": "Neighbor-133", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
