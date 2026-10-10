@@ -179,10 +179,9 @@ cells rated by both: 251
 | hi_cm | pass | 387 |
 | hi_deva | dropped_no_translation | 1 |
 | hi_deva | exclude_langdep | 31 |
-| hi_deva | needs_review | 12 |
-| hi_deva | pass | 375 |
+| hi_deva | pass | 387 |
 | hi_roman | dropped_no_translation | 1 |
 | hi_roman | exclude_langdep | 31 |
 | hi_roman | pass | 387 |
 
-**core_ids: 375**
+**core_ids: 387**

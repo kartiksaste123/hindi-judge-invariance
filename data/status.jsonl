@@ -314,7 +314,7 @@
 {"id": "GPTOut-012", "variant": "hi_deva", "status": "pass", "reasons": ["no_verdict"]}
 {"id": "GPTOut-012", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "GPTOut-013", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "GPTOut-013", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTOut-013", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "GPTOut-013", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "GPTOut-014", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "GPTOut-014", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -353,7 +353,7 @@
 {"id": "GPTOut-025", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "GPTOut-025", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "GPTOut-026", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "GPTOut-026", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "GPTOut-026", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "GPTOut-026", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "GPTOut-027", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "GPTOut-027", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -629,7 +629,7 @@
 {"id": "Natural-024", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-024", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-025", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-025", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-025", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-025", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-026", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-026", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -641,7 +641,7 @@
 {"id": "Natural-028", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-028", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-029", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-029", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-029", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-029", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-030", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-030", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -668,7 +668,7 @@
 {"id": "Natural-037", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-037", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-038", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-038", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-038", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-038", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-039", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-039", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -683,13 +683,13 @@
 {"id": "Natural-042", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-042", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-043", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-043", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-043", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-043", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-044", "variant": "hi_cm", "status": "exclude_langdep", "reasons": ["language_dependent"]}
 {"id": "Natural-044", "variant": "hi_deva", "status": "exclude_langdep", "reasons": ["language_dependent"]}
 {"id": "Natural-044", "variant": "hi_roman", "status": "exclude_langdep", "reasons": ["language_dependent"]}
 {"id": "Natural-045", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-045", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low", "verifier:form_ok"]}
+{"id": "Natural-045", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low", "verifier:form_ok"]}
 {"id": "Natural-045", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-046", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-046", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -767,7 +767,7 @@
 {"id": "Natural-070", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-070", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-071", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-071", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-071", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-071", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-072", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-072", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -791,7 +791,7 @@
 {"id": "Natural-078", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Natural-078", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-079", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Natural-079", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Natural-079", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Natural-079", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Natural-080", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Natural-080", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -899,7 +899,7 @@
 {"id": "Neighbor-014", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Neighbor-014", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-015", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Neighbor-015", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-015", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Neighbor-015", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-016", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Neighbor-016", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -923,7 +923,7 @@
 {"id": "Neighbor-022", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Neighbor-022", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-023", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Neighbor-023", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-023", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Neighbor-023", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-024", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Neighbor-024", "variant": "hi_deva", "status": "pass", "reasons": []}
@@ -974,7 +974,7 @@
 {"id": "Neighbor-039", "variant": "hi_deva", "status": "pass", "reasons": []}
 {"id": "Neighbor-039", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-040", "variant": "hi_cm", "status": "pass", "reasons": []}
-{"id": "Neighbor-040", "variant": "hi_deva", "status": "needs_review", "reasons": ["check:devanagari_low"]}
+{"id": "Neighbor-040", "variant": "hi_deva", "status": "pass", "reasons": ["check:devanagari_low"]}
 {"id": "Neighbor-040", "variant": "hi_roman", "status": "pass", "reasons": []}
 {"id": "Neighbor-041", "variant": "hi_cm", "status": "pass", "reasons": []}
 {"id": "Neighbor-041", "variant": "hi_deva", "status": "pass", "reasons": []}

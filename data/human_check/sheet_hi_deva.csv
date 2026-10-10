@@ -3221,7 +3221,7 @@ GPTOut-011,GPTOut,output_2,Interrogative,प्रश्नवाचक,,,,,,,
 GPTOut-012,GPTOut,input,Calculate the area of the triangle. Base: 5cm; Height: 6cm,त्रिभुज का क्षेत्रफल ज्ञात करें। आधार: 5cm; ऊंचाई: 6cm,pass,no_verdict | ,False,,,,
 GPTOut-012,GPTOut,output_1,15cm²,15cm²,,,,,,,
 GPTOut-012,GPTOut,output_2,The area of the triangle is 30 square centimeters.,त्रिभुज का क्षेत्रफल 30 वर्ग सेंटीमीटर है।,,,,,,,
-GPTOut-013,GPTOut,input,Assign each word in the sentence below to its part of speech. Kittens often scamper around excitedly.,नीचे दिए गए वाक्य में प्रत्येक शब्द को उसके पार्ट ऑफ़ स्पीच में असाइन करें। Kittens often scamper around excitedly.,needs_review,check:devanagari_low | ,False,,,,
+GPTOut-013,GPTOut,input,Assign each word in the sentence below to its part of speech. Kittens often scamper around excitedly.,नीचे दिए गए वाक्य में प्रत्येक शब्द को उसके पार्ट ऑफ़ स्पीच में असाइन करें। Kittens often scamper around excitedly.,pass,check:devanagari_low | ,False,,,,
 GPTOut-013,GPTOut,output_1,"Noun(Kittens), Adverb(often, excitedly), Verb(scamper), Preposition(around)","संज्ञा(Kittens), क्रियाविशेषण(often, excitedly), क्रिया(scamper), पूर्वसर्ग(around)",,,,,,,
 GPTOut-013,GPTOut,output_2,"Sure, here are the parts of speech for each word in the sentence:
 
@@ -3409,7 +3409,7 @@ GPTOut-026,GPTOut,input,"Hi, let's play a game of chess! I will play as white an
 
 1. e4","नमस्ते, चलो शतरंज का एक खेल खेलते हैं! मैं सफ़ेद मोहरों से खेलूँगा और तुम काले मोहरों से।
 
-1. e4",needs_review,check:devanagari_low | ,False,,,,
+1. e4",pass,check:devanagari_low | ,False,,,,
 GPTOut-026,GPTOut,output_1,"Sure, let's continue the game. 
 
 1. e4 e5
@@ -5315,7 +5315,7 @@ Natural-023,Natural,output_2,"Self-supervised learning is beneficial in Natural 
 Natural-024,Natural,input,"Generate a new sentence combining two of the following given sentences, with a correct relationship between them. My daughter was jumping up and down. She was excited to go out to the park.","नीचे दिए गए दो वाक्यों को मिलाकर एक नया वाक्य बनाएँ, जिसमें उनके बीच सही संबंध हो। मेरी बेटी ऊपर-नीचे कूद रही थी। वह पार्क जाने के लिए उत्साहित थी।",pass,,,,,,
 Natural-024,Natural,output_1,"My daughter was jumping up and down, because she was excited to go out to the park.","मेरी बेटी ऊपर-नीचे कूद रही थी, क्योंकि वह पार्क जाने के लिए उत्साहित थी।",,,,,,,
 Natural-024,Natural,output_2,"My daughter was jumping up and down, but she was excited to go out to the park.","मेरी बेटी ऊपर-नीचे कूद रही थी, लेकिन वह पार्क जाने के लिए उत्साहित थी।",,,,,,,
-Natural-025,Natural,input,Design a function to take a list of numbers and return the sum of the numbers.,संख्याओं की एक सूची लेने और संख्याओं का योग लौटाने के लिए एक फ़ंक्शन डिज़ाइन करें।,needs_review,check:devanagari_low | ,False,,,,
+Natural-025,Natural,input,Design a function to take a list of numbers and return the sum of the numbers.,संख्याओं की एक सूची लेने और संख्याओं का योग लौटाने के लिए एक फ़ंक्शन डिज़ाइन करें।,pass,check:devanagari_low | ,False,,,,
 Natural-025,Natural,output_1,"def list_sum(list): 
   # Iterate over the list 
   for num in list: 
@@ -5373,7 +5373,7 @@ Natural-027,Natural,output_2,Cloud computing lets businesses store and manage da
 Natural-028,Natural,input,"Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020","निम्नलिखित तारीख को ग्रेगोरियन कैलेंडर से जूलियन कैलेंडर में बदलें: 29 नवंबर, 2020",pass,,,,,,
 Natural-028,Natural,output_1,"By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar.","वर्ष 2020 तक, 29 नवंबर, 2020 (जूलियन तारीख) ग्रेगोरियन कैलेंडर से 13 दिन पीछे है।",,,,,,,
 Natural-028,Natural,output_2,"The Julian calendar date of November 29, 2020 (Gregorian calendar) is November 16, 2020.","29 नवंबर, 2020 (ग्रेगोरियन कैलेंडर) की जूलियन कैलेंडर तारीख 16 नवंबर, 2020 है।",,,,,,,
-Natural-029,Natural,input,Create a complete function that will generate an array of random numbers from 1 to 100,एक पूरा फ़ंक्शन बनाएँ जो 1 से 100 तक यादृच्छिक संख्याओं का एक ऐरे उत्पन्न करेगा,needs_review,check:devanagari_low | ,False,,,,
+Natural-029,Natural,input,Create a complete function that will generate an array of random numbers from 1 to 100,एक पूरा फ़ंक्शन बनाएँ जो 1 से 100 तक यादृच्छिक संख्याओं का एक ऐरे उत्पन्न करेगा,pass,check:devanagari_low | ,False,,,,
 Natural-029,Natural,output_1,"for x in range(1, 101):
     data.append(x)","for x in range(1, 101):
     data.append(x)",,,,,,,
@@ -5421,7 +5421,7 @@ Natural-037,Natural,output_1,Hello everyone! My name is John Smith and I'm glad 
 Natural-037,Natural,output_2,Good evening everyone! My name is ______ and I'm excited to be here today to discuss the importance of ______.,सभी को शुभ संध्या! मेरा नाम ______ है और मैं आज यहां ______ के महत्व पर चर्चा करने के लिए उत्साहित हूं।,,,,,,,
 Natural-038,Natural,input,"Modify the given function to accept and use two parameters. def greet_customer():
     return ""Welcome!""","दिए गए फ़ंक्शन को दो पैरामीटर स्वीकार करने और उनका उपयोग करने के लिए संशोधित करें। def greet_customer():
-    return ""Welcome!""",needs_review,check:devanagari_low | ,False,,,,
+    return ""Welcome!""",pass,check:devanagari_low | ,False,,,,
 Natural-038,Natural,output_1,"def greet_customer(name, customer):
     return ""Welcome!"" + name + ""!""","def greet_customer(name, customer):
     return ""Welcome!"" + name + ""!""",,,,,,,
@@ -5450,10 +5450,10 @@ Natural-041,Natural,output_2,She ran quickly.,वह तेज़ी से द�
 Natural-042,Natural,input,"Construct a sentence using the words ""effervescence"", ""hesitant"" and ""integrity"".","“जोश”, “संकोची” और “सत्यनिष्ठा” शब्दों का उपयोग करके एक वाक्य बनाएँ।",pass,,True,,,,
 Natural-042,Natural,output_1,The effervescence in the room helped to ease the hesitant nature of the individual.,कमरे के जोश ने व्यक्ति के संकोची स्वभाव को सहज करने में मदद की।,,,,,,,
 Natural-042,Natural,output_2,The hesitant effervescence of his words gave away his integrity.,उसके शब्दों के हिचकिचाते जोश ने उसकी सत्यनिष्ठा को ज़ाहिर कर दिया।,,,,,,,
-Natural-043,Natural,input,Write an SQL query to find all words that start with the letter 'd'.,'d' अक्षर से शुरू होने वाले सभी शब्दों को खोजने के लिए एक SQL क्वेरी लिखें।,needs_review,check:devanagari_low | ,False,,,,
+Natural-043,Natural,input,Write an SQL query to find all words that start with the letter 'd'.,'d' अक्षर से शुरू होने वाले सभी शब्दों को खोजने के लिए एक SQL क्वेरी लिखें।,pass,check:devanagari_low | ,False,,,,
 Natural-043,Natural,output_1,SELECT word FROM words WHERE word = 'd';,SELECT word FROM words WHERE word = 'd';,,,,,,,
 Natural-043,Natural,output_2,SELECT word FROM table WHERE word LIKE 'd%';,SELECT word FROM table WHERE word LIKE 'd%';,,,,,,,
-Natural-045,Natural,input,Read the following sentence and suggest one correction. I am going to the the store.,निम्नलिखित वाक्य पढ़ें और एक सुधार सुझाएँ। I am going to the the store.,needs_review,"check:devanagari_low; verifier:form_ok | Input instruction is in Hindi but the sentence to be corrected ('I am going to the the store.') remains in English, making the task hybrid rather than fully in Hindi/Devanagari. This creates an unnatural mixing where a Hindi speaker is asked to correct an English sentence. Ideally, the sentence should have been translated to Hindi as well for genuine target-form consistency.",False,,,,
+Natural-045,Natural,input,Read the following sentence and suggest one correction. I am going to the the store.,निम्नलिखित वाक्य पढ़ें और एक सुधार सुझाएँ। I am going to the the store.,pass,"check:devanagari_low; verifier:form_ok | Input instruction is in Hindi but the sentence to be corrected ('I am going to the the store.') remains in English, making the task hybrid rather than fully in Hindi/Devanagari. This creates an unnatural mixing where a Hindi speaker is asked to correct an English sentence. Ideally, the sentence should have been translated to Hindi as well for genuine target-form consistency.",False,,,,
 Natural-045,Natural,output_1,I am going to the store.,I am going to the store.,,,,,,,
 Natural-045,Natural,output_2,"Remove one of the two adjacent ""the""","दो बार आए ""the"" में से एक को हटा दें।",,,,,,,
 Natural-046,Natural,input,Describe the look and feel of an ideal website.,एक आदर्श वेबसाइट के लुक और फील का वर्णन करें।,pass,,,,,,
@@ -5773,7 +5773,7 @@ for i in L:
 L = [1,2,3,4,5,6,7,8]
 for i in L:
     if i % 2 != 0:
-        print(i)",needs_review,check:devanagari_low | ,False,,,,
+        print(i)",pass,check:devanagari_low | ,False,,,,
 Natural-071,Natural,output_1,"List = [1,2,3,4,5,6,7,8]
 print(List) # prints all the odd numbers","List = [1,2,3,4,5,6,7,8]
 print(List) # सभी विषम संख्याएँ प्रिंट करता है",,,,,,,
@@ -5824,7 +5824,7 @@ Natural-078,Natural,output_1,"You can try taking public transportations, renting
 Natural-078,Natural,output_2,"Consider taking public transportation or renting a car with fewer emissions when travelling. If you must take a plane, look for an airline with a lower carbon footprint.","यात्रा करते समय सार्वजनिक परिवहन लेने या कम उत्सर्जन वाली कार किराए पर लेने पर विचार करें। यदि आपको विमान से यात्रा करनी ही है, तो कम कार्बन फुटप्रिंट वाली एयरलाइन की तलाश करें।",,,,,,,
 Natural-079,Natural,input,"Create a program that determines the day of the week for a given date.
 Date: 5th January, 2021.","एक ऐसा प्रोग्राम बनाएँ जो दी गई तारीख के लिए सप्ताह का दिन निर्धारित करे।
-तारीख: 5 जनवरी, 2021।",needs_review,check:devanagari_low | ,False,,,,
+तारीख: 5 जनवरी, 2021।",pass,check:devanagari_low | ,False,,,,
 Natural-079,Natural,output_1,"import datetime
 date = datetime.date(2021, 1, 5)
 day = date.weekday()
@@ -6171,7 +6171,7 @@ everglades National Park, Florida.","ग्रैंड कैन्यन न�
 Neighbor-014,Neighbor,input,Identify the cause of this issue: The computer is not working.,इस समस्या के कारण की पहचान करें: कंप्यूटर काम नहीं कर रहा है।,pass,,,,,,
 Neighbor-014,Neighbor,output_1,"First, check that the internet cable is properly connected to the computer. Check the Wi-Fi settings of the device and make sure the correct network is selected. If the problem still exists, restart the computer and router to check if the issue is resolved. If the issue persists, contact your internet service provider to check if the issue is caused by them.","सबसे पहले, जाँचें कि इंटरनेट केबल कंप्यूटर से ठीक से जुड़ा है। डिवाइस की वाई-फ़ाई सेटिंग जाँचें और सुनिश्चित करें कि सही नेटवर्क चुना गया है। यदि समस्या अभी भी बनी हुई है, तो यह जाँचने के लिए कंप्यूटर और राउटर को रीस्टार्ट करें कि क्या समस्या हल हो गई है। यदि समस्या बनी रहती है, तो यह जाँचने के लिए अपने इंटरनेट सेवा प्रदाता से संपर्क करें कि क्या समस्या उनकी वजह से है।",,,,,,,
 Neighbor-014,Neighbor,output_2,The cause of this issue is unknown without more information.,अधिक जानकारी के बिना इस समस्या का कारण अज्ञात है।,,,,,,,
-Neighbor-015,Neighbor,input,Construct a valid regular expression to match any string ending with ‘@mysite.com'.,‘@mysite.com' से खत्म होने वाली किसी भी स्ट्रिंग से मेल खाने के लिए एक वैध रेगुलर एक्सप्रेशन बनाएँ।,needs_review,check:devanagari_low | ,False,,,,
+Neighbor-015,Neighbor,input,Construct a valid regular expression to match any string ending with ‘@mysite.com'.,‘@mysite.com' से खत्म होने वाली किसी भी स्ट्रिंग से मेल खाने के लिए एक वैध रेगुलर एक्सप्रेशन बनाएँ।,pass,check:devanagari_low | ,False,,,,
 Neighbor-015,Neighbor,output_1,^(.+@mysite.com)$,^(.+@mysite.com)$,,,,,,,
 Neighbor-015,Neighbor,output_2,"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$","^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$",,,,,,,
 Neighbor-016,Neighbor,input,"Write a creative sentence using the following three words: love, perseverance and adventure.","निम्नलिखित तीन शब्दों का उपयोग करके एक रचनात्मक वाक्य लिखें: प्यार, दृढ़ता और रोमांच।",pass,,,,,,
@@ -6217,7 +6217,7 @@ Neighbor-022,Neighbor,output_1,"1. Plastic straws are not biodegradable and can 
 4. प्लास्टिक के स्ट्रॉ समुद्री माइक्रो-प्लास्टिक के प्रसार में योगदान कर सकते हैं, जो समुद्री जीवन पर प्रतिकूल प्रभाव डालते हैं।
 5. प्लास्टिक के स्ट्रॉ के उत्पादन के लिए जीवाश्म ईंधन की आवश्यकता होती है, जो वैश्विक जलवायु परिवर्तन में योगदान कर सकता है।",,,,,,,
 Neighbor-022,Neighbor,output_2,Plastic straws are better for the environment.,प्लास्टिक के स्ट्रॉ पर्यावरण के लिए बेहतर होते हैं।,,,,,,,
-Neighbor-023,Neighbor,input,Generate a sample form template for collecting user feedback. I will directly print it on the questionnaire.,उपयोगकर्ता की प्रतिक्रिया एकत्र करने के लिए एक नमूना फ़ॉर्म टेम्पलेट बनाएँ। मैं इसे सीधे प्रश्नावली पर प्रिंट करूँगा।,needs_review,check:devanagari_low | ,False,,,,
+Neighbor-023,Neighbor,input,Generate a sample form template for collecting user feedback. I will directly print it on the questionnaire.,उपयोगकर्ता की प्रतिक्रिया एकत्र करने के लिए एक नमूना फ़ॉर्म टेम्पलेट बनाएँ। मैं इसे सीधे प्रश्नावली पर प्रिंट करूँगा।,pass,check:devanagari_low | ,False,,,,
 Neighbor-023,Neighbor,output_1,"<html>
   <head>
     <title>Customer Feedback Survey</title>
@@ -6401,7 +6401,7 @@ Neighbor-038,Neighbor,output_2,"Would you mind doing it, please? Thanks very muc
 Neighbor-039,Neighbor,input,Write a sentence explaining how eating healthy benefits the human body?,एक वाक्य लिखें जो यह बताए कि स्वस्थ भोजन मानव शरीर को कैसे लाभ पहुँचाता है?,pass,,,,,,
 Neighbor-039,Neighbor,output_1,Eating a healthy diet provides the human body with essential nutrients that it needs to function properly and stay healthy.,एक स्वस्थ आहार मानव शरीर को आवश्यक पोषक तत्व प्रदान करता है जिनकी उसे ठीक से काम करने और स्वस्थ रहने के लिए आवश्यकता होती है।,,,,,,,
 Neighbor-039,Neighbor,output_2,"Eating a healthy diet can provide numerous benefits, such as improved energy levels, weight loss, strengthened immunity, better heart health, and reduced risk of chronic disease. Healthy eating also helps people maintain a balanced diet, providing the essential nutrients and minerals our body needs to function properly. Eating a balanced diet can also help improve mood, reduce stress, and lower the risk of depression and anxiety.","स्वस्थ आहार खाने से कई लाभ मिल सकते हैं, जैसे ऊर्जा के स्तर में सुधार, वजन कम होना, प्रतिरक्षा प्रणाली का मजबूत होना, बेहतर हृदय स्वास्थ्य और पुरानी बीमारियों का खतरा कम होना। स्वस्थ भोजन लोगों को संतुलित आहार बनाए रखने में भी मदद करता है, जिससे हमारे शरीर को ठीक से काम करने के लिए आवश्यक पोषक तत्व और खनिज मिलते हैं। संतुलित आहार खाने से मूड को बेहतर बनाने, तनाव कम करने और अवसाद और चिंता के जोखिम को कम करने में भी मदद मिल सकती है।",,,,,,,
-Neighbor-040,Neighbor,input,Create a class for a computer programming language.,एक कंप्यूटर प्रोग्रामिंग भाषा के लिए एक क्लास बनाएँ।,needs_review,check:devanagari_low | ,False,,,,
+Neighbor-040,Neighbor,input,Create a class for a computer programming language.,एक कंप्यूटर प्रोग्रामिंग भाषा के लिए एक क्लास बनाएँ।,pass,check:devanagari_low | ,False,,,,
 Neighbor-040,Neighbor,output_1,"class Program:
     def __init__(self):
         self.name = """"

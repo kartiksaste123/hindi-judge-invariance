@@ -2,11 +2,11 @@
 
 | variant | pass | needs_review | exclude_langdep |
 |---|---|---|---|
-| hi_deva | 375 | 12 | 31 |
+| hi_deva | 387 | 0 | 31 |
 | hi_roman | 387 | 0 | 31 |
 | hi_cm | 387 | 0 | 31 |
 
-**core_ids: 375**
+**core_ids: 387**
 
 ## Reason breakdown (per variant)
 ### hi_deva

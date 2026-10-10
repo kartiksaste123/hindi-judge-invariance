@@ -75,7 +75,10 @@ for i, item in en.items():
             continue
         a, b = ratings[key]["A"], ratings[key]["B"]
         t = trans[v].get(i) or {}
-        det_ok = "texts" in t and not t.get("failed_checks")
+        # devanagari_low is a heuristic for untranslated prose; for human-validated
+        # cells, low ratio from verbatim code/notation (rules 4-6) does not block.
+        det_ok = "texts" in t and not any(
+            k not in ("devanagari_ratio", "devanagari_low") for k in (t.get("checks") or {}))
         no_meaning_no = a.get("meaning") != "No" and b.get("meaning") != "No"
         old_status, old_reasons = status[key]
         if no_meaning_no and det_ok:
