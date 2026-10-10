@@ -3,17 +3,17 @@ import asyncio, copy, json, pathlib, sys
 import httpx
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from llm import chat, ROOT
+from llm_client import chat, ROOT
 from translate import check_item, FIELDS
-from verify import one as verify_one
+from verify_translations import one as verify_one
 
-FIXES = json.load(open(ROOT / "data/human_adjudication/fixes.json"))
+FIXES = json.load(open(ROOT / "data/human_validation/fixes.json"))
 VARIANTS = ["hi_deva", "hi_roman", "hi_cm"]
 
 
 def load_last(variant):
     d = {}
-    for l in open(ROOT / "data" / "trans" / f"{variant}.jsonl"):
+    for l in open(ROOT / "data" / "raw" / "translation_attempts" / f"{variant}.jsonl"):
         r = json.loads(l)
         d[r["id"]] = r
     return d
@@ -64,7 +64,7 @@ def main_sync():
         rec["failed_checks"] = failed
         rec["repaired"] = True
         rec["repair_round"] = 3  # human pass
-        with open(ROOT / "data" / "trans" / f"{v}.jsonl", "a") as f:
+        with open(ROOT / "data" / "raw" / "translation_attempts" / f"{v}.jsonl", "a") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
         appended.append((v, iid, rec))
     print(f"applied {len(todo)} ops; appended {len(appended)} cell records")
@@ -88,7 +88,7 @@ def main_sync():
         for v, r in results:
             byv.setdefault(v, []).append(r)
         for v, rs in byv.items():
-            with open(ROOT / "data" / "verify" / f"{v}.jsonl", "a") as f:
+            with open(ROOT / "data" / "raw" / "verification_attempts" / f"{v}.jsonl", "a") as f:
                 for r in rs:
                     f.write(json.dumps(r, ensure_ascii=False) + "\n")
         print("reverified", len(results),

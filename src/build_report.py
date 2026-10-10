@@ -1,10 +1,15 @@
 import base64, json, pathlib, pandas as pd
-ROOT = pathlib.Path(__file__).resolve().parents[1]; O = ROOT / "results" / "step5"
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+M = ROOT / "results" / "metrics"; F = ROOT / "results" / "figures"
+B = ROOT / "build"; B.mkdir(exist_ok=True)
+class _O:  # shim so existing O/... expressions still work
+    def __truediv__(self, n): return F / n
+O = _O()
 VN = {"en": "English", "hi_deva": "Hindi (Devanagari)", "hi_roman": "Romanized Hindi", "hi_cm": "Hinglish"}
 J = ["gpt-oss-120b", "llama-3.3-70b", "gemma-4-26b", "qwen3-30b", "claude-haiku-4-5", "llama-3.1-8b"]
-T = pd.read_csv(O / "metrics_main.csv"); N = pd.read_csv(O / "repeat_noise.csv"); S = json.load(open(O / "stats.json"))
-G = pd.read_csv(O / "gee_odds_ratios.csv", index_col=0)
-def img(n, cap): return f'<figure><img src="data:image/png;base64,{base64.b64encode((O/n).read_bytes()).decode()}"><figcaption>{cap}</figcaption></figure>'
+T = pd.read_csv(M / "metrics_main.csv"); N = pd.read_csv(M / "repeat_noise.csv"); S = json.load(open(M / "stats.json"))
+G = pd.read_csv(M / "gee_odds_ratios.csv", index_col=0)
+def img(n, cap): return f'<figure><img src="data:image/png;base64,{base64.b64encode((F/n).read_bytes()).decode()}"><figcaption>{cap}</figcaption></figure>'
 def pct(x): return f"{100*x:.1f}"
 rows = ""
 for j in J:
@@ -19,7 +24,7 @@ nrows = "".join(f"<tr><td>{r.judge}</td><td>{VN[r.variant]}</td><td>{pct(r.self_
 grows = "".join(f"<tr><td>{VN[k.split('T.')[1].rstrip(']')]}</td><td>{r.OR:.3f}</td><td>[{r.lo:.3f}, {r.hi:.3f}]</td><td>{r.p:.1e}</td></tr>" for k, r in G[G.index.str.startswith('C(variant)')].iterrows())
 sens = ""
 for tag, name in [("main", "All 387 items"), ("no_codeheavy", "Without 12 code-heavy items (375)"), ("no_humanfixed", "Without 34 human-fixed items (353)")]:
-    d = pd.read_csv(O / f"metrics_{tag}.csv"); d = d[d.variant != "en"]; m = d.groupby("variant").acc_delta.mean()
+    d = pd.read_csv(M / f"metrics_{tag}.csv"); d = d[d.variant != "en"]; m = d.groupby("variant").acc_delta.mean()
     sens += f"<tr><td>{name}</td>" + "".join(f"<td>{100*m[v]:+.1f}</td>" for v in ["hi_deva", "hi_roman", "hi_cm"]) + f"<td>{(d.mcnemar_p_holm<.05).sum()}/18</td></tr>"
 P = S["pooled"]
 html = f"""<!doctype html><html><head><meta charset=utf-8><title>Step 4–5 Results</title>
@@ -94,6 +99,6 @@ Input: items D = {{(x, y1, y2, g)}}, languages L = {{en, deva, roman, cm}}, judg
 <li>One benchmark (LLMBar), one prompt template, and six judges accessed through Cloudflare/Anthropic APIs at a fixed date. Results are a measurement for these settings, not a universal claim.</li>
 <li>Claude Haiku 4.5 belongs to the same family as the verifier model (Claude Sonnet 4.5), not the translator.</li>
 <li>Cost is a token-based estimate; the exact billing is in the AI Gateway logs.</li></ul>
-<p style=font-size:10px;color:#666>Code: src/judge.py, src/check_step4.py, src/step5_analysis.py, src/build_report.py. Raw data: results/step4/*.jsonl.</p>
+<p style=font-size:10px;color:#666>Code: src/run_judges.py, src/check_judgments.py, src/analyze_results.py, src/build_report.py. Raw data: results/judgments/*.jsonl.</p>
 </body></html>"""
-(O / "report.html").write_text(html)
+(B / "report.html").write_text(html)

@@ -1,5 +1,7 @@
 """Build the human-check workbook: all needs_review cells + a random sample of pass cells."""
-import json, random, glob
+import json, random, glob, pathlib, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from llm_client import ROOT
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -7,7 +9,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 VARIANTS = {"hi_deva": "Hindi (Devanagari)", "hi_roman": "Romanized Hindi", "hi_cm": "Hinglish (code-mixed)"}
 DROPPED = {"Natural-007", "GPTInst-079"}  # translator safety-blocked; excluded item-level
 SAMPLE_PER_VARIANT = 30
-en = {json.loads(l)["id"]: json.loads(l) for l in open("data/llmbar_en.jsonl")}
+en = {json.loads(l)["id"]: json.loads(l) for l in open(ROOT / "data" / "llmbar_en.jsonl")}
 
 def find_issues(o):
     if isinstance(o, dict):
@@ -19,7 +21,7 @@ def find_issues(o):
 
 issues = {}
 for v in VARIANTS:
-    for l in open(f"data/verify/{v}.jsonl"):
+    for l in open(ROOT / "data" / "raw" / "verification_attempts" / f"{v}.jsonl"):
         d = json.loads(l); issues[(d["id"], v)] = find_issues(d)  # last record wins (latest repair round)
 
 wb = Workbook(); ws0 = wb.active; ws0.title = "README"
@@ -42,7 +44,7 @@ heads = ["#", "Type", "Item id", "Better output", "Checker notes",
 widths = [5, 9, 15, 9, 40, 40, 40, 50, 50, 50, 50, 14, 11, 12, 40, 30]
 counts = {}
 for v, title in VARIANTS.items():
-    recs = [json.loads(l) for l in open(f"data/final/{v}.jsonl")]
+    recs = [json.loads(l) for l in open(ROOT / "data" / "translations" / f"{v}.jsonl")]
     recs = [r for r in recs if r["id"] not in DROPPED]
     rev = sorted([r for r in recs if r["status"] == "needs_review"], key=lambda r: r["id"])
     pas = [r for r in recs if r["status"] == "pass"]
@@ -64,5 +66,5 @@ for v, title in VARIANTS.items():
     for col, opts in (("L", '"Yes,Partly,No"'), ("M", '"Yes,No"'), ("N", '"1,2,3,4,5"')):
         dv = DataValidation(type="list", formula1=opts, allow_blank=True); ws.add_data_validation(dv); dv.add(f"{col}2:{col}{n+1}")
     counts[title] = (len(rev), len(samp))
-wb.save("data/human_check_v2/Human_Check_Items.xlsx")
+wb.save(ROOT / "data" / "human_validation" / "blank_sheet.xlsx")
 print(counts)

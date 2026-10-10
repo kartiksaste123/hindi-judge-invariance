@@ -3,7 +3,7 @@ import argparse, asyncio, json, re, unicodedata, pathlib, sys
 import httpx
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from llm import TRANSLATOR, REASONING, chat, ROOT
+from llm_client import TRANSLATOR, REASONING, chat, ROOT
 
 FIELDS = ["input", "output_1", "output_2"]
 DEVA = re.compile(r"[ऀ-ॿ]")
@@ -126,8 +126,8 @@ async def main():
     items = {r["id"]: r for r in
              (json.loads(l) for l in open(ROOT / "data" / "llmbar_en.jsonl"))}
 
-    trans_dir = ROOT / "data" / "trans"
-    trans_dir.mkdir(exist_ok=True)
+    trans_dir = ROOT / "data" / "raw" / "translation_attempts"
+    trans_dir.mkdir(parents=True, exist_ok=True)
     sem = asyncio.Semaphore(8)
     async with httpx.AsyncClient() as client:
         for variant in args.variants.split(","):

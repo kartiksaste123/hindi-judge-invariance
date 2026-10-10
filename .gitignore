@@ -3,3 +3,5 @@ __pycache__/
 data/llmbar_repo/
 .env
 .secrets/
+build/
+results/api_calls.jsonl

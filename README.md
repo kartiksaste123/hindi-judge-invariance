@@ -12,38 +12,39 @@ Does an LLM judge pick a different answer when the *same* question and the *same
 - **Analysis:** accuracy vs gold, verdict flip rate vs English, position consistency, exact McNemar (Holm-corrected), item-clustered bootstrap CIs, item-clustered GEE logistic model, and a same-prompt re-run noise floor.
 
 ## Headline result
-Pooled accuracy: English 78.9%, Devanagari 74.1%, Hinglish 73.3%, Romanized 70.3%. Each of the 18 judge × language drops is significant after Holm correction. Romanized Hindi is the hardest (GEE OR 0.60 [0.54, 0.67] vs English). Full report: `results/step5/Step4_Results_Report.pdf`.
+Pooled accuracy: English 78.9%, Devanagari 74.1%, Hinglish 73.3%, Romanized 70.3%. Each of the 18 judge × language drops is significant after Holm correction. Romanized Hindi is the hardest (GEE OR 0.60 [0.54, 0.67] vs English). Full report: `results/report/results_report.pdf`.
 
 ## Layout
 ```
-prompts/            judge, translation, verification and repair prompts
-src/                pipeline code (see below)
-data/llmbar_en.jsonl          normalized LLMBar source
-data/trans/*.jsonl            all translation attempts (last record per id is active)
-data/final/*.jsonl            finalized cells with status + human-validation metadata
-data/core_ids.txt             387-item final core;  data/repeat100.txt  repeat subset (seed 2027)
-data/human_check_v2/          original rater workbooks (unchanged)
-data/human_adjudication/      extracted ratings, agreement stats, exact fixes applied
-data/pre_repair/, data/pre_human/   snapshots before repair / human fixes
-results/step4/                raw judgments: judgments.jsonl (run 0), run1.jsonl, run2.jsonl
-results/step5/                metrics CSVs, figures, report (PDF/HTML/DOCX)
-results/llm_calls.jsonl       every API call: model, prompt hash, usage, latency, raw response
-results/v1/, results/judgments.jsonl   pilot runs (exploratory, not used in final results)
+prompts/                 judge, translation, verification and repair prompts
+src/                     pipeline scripts (order in "Reproduce")
+data/llmbar_en.jsonl     normalized LLMBar source (+ llmbar_source.txt)
+data/splits/             core_387.txt (final core), repeat_100.txt (seed 2027), pilot_50.txt
+data/translations/       final Hindi / Romanized / Hinglish datasets with validation status
+data/raw/                every translation and verification attempt (last record per id is active)
+data/item_status.jsonl   per item × variant status; language_dependent_ids.txt = excluded items
+data/human_validation/   blank sheet, the two raters' sheets, ratings, fixes, agreement
+results/judgments/       raw judge outputs: main run + 2 repeat runs
+results/api_calls.jsonl.gz  every API call (model, prompt hash, usage, raw response)
+results/metrics/         all metrics CSVs + stats.json
+results/figures/         9 figures
+results/report/          results report (PDF, DOCX)
+docs/                    human-validation summary, translation examples
 ```
 
 ## Reproduce
 ```bash
 pip install -r requirements.txt   # report export also needs pandoc
 export CLOUDFLARE_ACCOUNT_ID=...  CLOUDFLARE_API_TOKEN=...   # AI Gateway named llm-judge-hinglish
-python data/fetch_llmbar.py                    # optional: data/llmbar_en.jsonl is already included
-python src/translate.py --variants hi_deva,hi_roman,hi_cm --ids <ids>   # then src/verify.py, src/repair.py
-python src/finalize.py                          # statuses + core_ids
-python src/judge.py --variants en,hi_deva,hi_roman,hi_cm --ids data/core_ids.txt --run 0 --out results/step4/judgments.jsonl
-python src/judge.py --variants en,hi_deva,hi_roman,hi_cm --ids data/repeat100.txt --run 1 --out results/step4/run1.jsonl
-python src/judge.py --variants en,hi_deva,hi_roman,hi_cm --ids data/repeat100.txt --run 2 --out results/step4/run2.jsonl
-python src/judge.py ... --retry-invalid          # retry unreadable verdicts (max 3 attempts)
-python src/check_step4.py                        # completeness check
-python src/step5_analysis.py && python src/build_report.py && python src/export_report.py
+python src/fetch_llmbar.py                    # optional: data/llmbar_en.jsonl is already included
+python src/translate.py --variants hi_deva,hi_roman,hi_cm --ids <ids>   # then src/verify_translations.py, src/repair_translations.py
+python src/finalize_dataset.py                  # statuses + core_387
+python src/run_judges.py --variants en,hi_deva,hi_roman,hi_cm --ids data/splits/core_387.txt --run 0 --out results/judgments/main_run.jsonl
+python src/run_judges.py --variants en,hi_deva,hi_roman,hi_cm --ids data/splits/repeat_100.txt --run 1 --out results/judgments/repeat_run1.jsonl
+python src/run_judges.py --variants en,hi_deva,hi_roman,hi_cm --ids data/splits/repeat_100.txt --run 2 --out results/judgments/repeat_run2.jsonl
+python src/run_judges.py ... --retry-invalid    # retry unreadable verdicts (max 3 attempts)
+python src/check_judgments.py                   # completeness check
+python src/analyze_results.py && python src/build_report.py && python src/export_report.py
 ```
 Analysis needs no API access: all raw judgments are included.
 
