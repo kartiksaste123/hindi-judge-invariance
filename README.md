@@ -33,7 +33,7 @@ results/v1/, results/judgments.jsonl   pilot runs (exploratory, not used in fina
 
 ## Reproduce
 ```bash
-pip install httpx pandas scipy statsmodels matplotlib seaborn openpyxl
+pip install -r requirements.txt   # report export also needs pandoc
 export CLOUDFLARE_ACCOUNT_ID=...  CLOUDFLARE_API_TOKEN=...   # AI Gateway named llm-judge-hinglish
 python data/fetch_llmbar.py                    # optional: data/llmbar_en.jsonl is already included
 python src/translate.py --variants hi_deva,hi_roman,hi_cm --ids <ids>   # then src/verify.py, src/repair.py

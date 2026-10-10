@@ -1,0 +1,9 @@
+httpx==0.28.1
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+statsmodels==0.15.0
+matplotlib==3.10.9
+seaborn==0.13.2
+openpyxl==3.1.5
+Pillow==12.3.0
