@@ -1,2 +1,5 @@
-data/llmbar_repo/
 __pycache__/
+*.pyc
+data/llmbar_repo/
+.env
+.secrets/
