@@ -1,0 +1,471 @@
+{
+ "policy": "Ops apply in listed order as exact str.replace on data/trans texts; expected_count is the exact number of occurrences required before replacement (\"all\" = >=1).",
+ "fixes": [
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-010",
+   "field": "input",
+   "old": "वन में एक जादुई महल",
+   "new": "वन की गहराई में एक जादुई महल",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "restore \"deep\"; A's version adds \"dense\", not in source"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-016",
+   "field": "output_1",
+   "old": "जबकि हेज़ल घबराकर अपने काँटों को सिकोड़ते हुए उसके पीछे-पीछे चली।",
+   "new": "जबकि हेज़ल उसके पीछे-पीछे चली; घबराहट से उसके काँटे फड़क रहे थे।",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "nervously twitching spines"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-044",
+   "field": "output_2",
+   "old": "मुझे आपके बातचीत कौशल का अभ्यास करने में आपकी मदद करने में खुशी होगी।",
+   "new": "मुझे आपके मोलभाव के कौशल का अभ्यास कराने में खुशी होगी।",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "negotiation skills"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-063",
+   "field": "output_2",
+   "old": "सुनिश्चित करें कि URL \"https://\" के बजाय \"http://\" से शुरू होता है।",
+   "new": "सुनिश्चित करें कि URL \"http://\" के बजाय \"https://\" से शुरू होता है।",
+   "expected_count": 1,
+   "source": "A+B",
+   "rationale": "https/http reversed"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-067",
+   "field": "output_2",
+   "old": "को अस्थायी रूप से बेहतर मौखिक क्षमता, सहानुभूति, और चिंता, अवसाद और कुछ कैंसर जैसी कुछ स्वास्थ्य स्थितियों के प्रति संवेदनशीलता जैसे लक्षणों से जोड़ा गया है।",
+   "new": "का बेहतर मौखिक क्षमता, सहानुभूति, तथा चिंता, अवसाद और कुछ कैंसर जैसी स्वास्थ्य स्थितियों के प्रति संवेदनशीलता से संभावित संबंध सुझाया गया है।",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "tentatively != temporarily"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-073",
+   "field": "input",
+   "old": "अगर एआई के लिए नैतिक नियम आज के नियमों से कैसे अलग होते, यदि यह तकनीक 1930 के दशक में उपलब्ध होती?",
+   "new": "अगर यह तकनीक 1930 के दशक में उपलब्ध होती, तो एआई के लिए नैतिक नियम आज के नियमों से कैसे अलग होते?",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "grammar of conditional question"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-076",
+   "field": "output_1",
+   "old": "ग्रेगरी मैगुइर ने भी अपनी पुस्तक श्रृंखला द विकेड इयर्स में इस आधार का पता लगाया था जिसे लोकप्रिय संगीत, विकेड में रूपांतरित किया गया था।",
+   "new": "ग्रेगरी मैगुइर ने भी अपनी पुस्तक श्रृंखला द विकेड इयर्स में इस विचार की पड़ताल की थी, जिसे लोकप्रिय संगीत-नाटक विकेड के रूप में रूपांतरित किया गया था।",
+   "expected_count": 1,
+   "source": "B (A same issue)",
+   "rationale": "musical != music"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Manual-031",
+   "field": "input",
+   "old": "क्या अंगूठे का युद्ध हिंसक है?",
+   "new": "क्या थम्ब वॉर (अंगूठों की लड़ाई का खेल) हिंसक है?",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "thumb war is a game"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Manual-036",
+   "field": "input",
+   "old": "मनोवैज्ञानिक मस्तिष्क के आकस्मिक गुणों को समझने की कोशिश करते हैं, और इस अनुशासन को न्यूरोसाइंस से जोड़ते हैं।",
+   "new": "मनोवैज्ञानिक मस्तिष्क के उद्भवशील गुणों को समझने की कोशिश करते हैं और इस विषय को न्यूरोसाइंस से जोड़ते हैं।",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "emergent != accidental"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Natural-067",
+   "field": "output_2",
+   "old": "अप्रभावी",
+   "new": "कायल न कर पाने वाला",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "unconvincing; A's version leaks the English word in parentheses"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-091",
+   "field": "output_2",
+   "old": "विभिन्न क्षमताओं में सहायता करने",
+   "new": "कई तरह से सहायता करने",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "in various capacities"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Manual-032",
+   "field": "output_1",
+   "old": "और महत्वपूर्ण सोच कौशल के महत्व",
+   "new": "और आलोचनात्मक सोच के कौशल के महत्व",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "critical thinking"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Manual-043",
+   "field": "output_1",
+   "old": "खुशियों का प्रतीक करने के लिए किया जाता है",
+   "new": "खुशियों के प्रतीक के रूप में किया जाता है",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "grammar"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Neighbor-009",
+   "field": "input",
+   "old": "अस्वस्थ",
+   "new": "अस्वास्थ्यकर",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "unhealthy food, not sick"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Neighbor-009",
+   "field": "output_1",
+   "old": "अस्वस्थ",
+   "new": "अस्वास्थ्यकर",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "same"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Neighbor-009",
+   "field": "output_2",
+   "old": "अस्वस्थ",
+   "new": "अस्वास्थ्यकर",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "same"
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Neighbor-086",
+   "field": "output_2",
+   "old": "सिकुड़ता है और सिकुड़ता है और प्रिंटिंग सतह से अलग हो जाता है",
+   "new": "सिकुड़कर प्रिंटिंग सतह से अलग हो जाता है",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "duplicated verb; EN \"shrinking and detaching\""
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-016",
+   "field": "output_2",
+   "old": "jangal mein gehri ek khargosh",
+   "new": "jangal ki gehraiyon mein ek khargosh",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "calque"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-016",
+   "field": "output_1",
+   "old": "jangal mein ek kahawat ban gayi",
+   "new": "jangal mein ek dantkatha ban gayi",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "legend != proverb"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-049",
+   "field": "output_1",
+   "old": "canyons, patharon, mesason, ya oasis",
+   "new": "canyons, pathaar, mesas, ya oasis",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "plateaus != rocks"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-051",
+   "field": "output_2",
+   "old": "Mujhe aasha hai ki yeh email aapko theek-thaak milega.",
+   "new": "Aasha hai aap kushal-mangal honge.",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "idiom \"finds you well\""
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-053",
+   "field": "output_2",
+   "old": "Aalochnon",
+   "new": "Aalochakon",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "spelling"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-058",
+   "field": "output_2",
+   "old": "ompression therapy",
+   "new": "ompression psychotherapy",
+   "expected_count": "all",
+   "source": "B",
+   "rationale": "source says psychotherapy (7x) — keep source wording incl. its oddness"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-073",
+   "field": "output_1",
+   "old": "manदंड",
+   "new": "maandand",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "Devanagari leak"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-073",
+   "field": "output_2",
+   "old": "manदंड",
+   "new": "maandand",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "Devanagari leak"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-073",
+   "field": "output_1",
+   "old": "1800 ka dashak audyogik kranti ka charam tha",
+   "new": "19vin sadi audyogik kranti ka charam thi",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "1800s = 19th century, not a decade"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-073",
+   "field": "output_1",
+   "old": "1800 ke dashak",
+   "new": "19vin sadi",
+   "expected_count": "all",
+   "source": "B (extended to all occurrences)",
+   "rationale": "same error repeated"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-076",
+   "field": "output_1",
+   "old": "villain banaya gaya tha aur",
+   "new": "villain banaya gaya lagta tha aur",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "restore \"seemed\""
+  },
+  {
+   "variant": "hi_roman",
+   "id": "Natural-008",
+   "field": "output_2",
+   "old": "Pathos samjhane ka ek tool hai jiska istemaal pathakon ki bhavnaon ko sakaratmak ya nakaratmak bhavnaon ko jagakar appeal karne ke liye kiya jaata hai.",
+   "new": "Pathos manane ka ek tool hai jiska istemaal sakaratmak ya nakaratmak bhavnaayein jagakar pathakon ki bhavnaon ko appeal karne ke liye kiya jaata hai.",
+   "expected_count": 1,
+   "source": "B (A same issue)",
+   "rationale": "persuasion != explanation"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "Natural-035",
+   "field": "output_2",
+   "old": "Chalak.",
+   "new": "Cunning.",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "instruction keeps the English word; answer must be an English synonym (consistent with output_1 and hi_cm)"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTInst-088",
+   "field": "input",
+   "old": "ou ek text-based",
+   "new": "Aap ek text-based",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "source typo \"ou are\" made Hindi unreadable"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "GPTOut-010",
+   "field": "output_1",
+   "old": "Jab khiladi stretch kar rahe the aur khel ke liye taiyar ho rahe the, to hawa mein utsaah ka current tha.",
+   "new": "Khiladiyon ke stretch karne aur taiyaar hone ke dauraan mahaul utsukta aur utsaah se bhara tha.",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "idiom \"air was electric\""
+  },
+  {
+   "variant": "hi_roman",
+   "id": "Neighbor-071",
+   "field": "input",
+   "old": "Di gayi bhuja ki lambai se ek ghan ke satah ke kshetrafal ki ganana karein.",
+   "new": "Di gayi side length se cube ka surface area nikalein.",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "naturalness; school-math terms are normally kept in English"
+  },
+  {
+   "variant": "hi_roman",
+   "id": "Neighbor-113",
+   "field": "input",
+   "old": "jismein sabziyan,",
+   "new": "jismein phal aur sabziyan,",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "produce = fruit + vegetables"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "GPTInst-024",
+   "field": "output_1",
+   "old": "aappropriate",
+   "new": "appropriate",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "typo"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "GPTInst-029",
+   "field": "output_2",
+   "old": "period ke achanak baad",
+   "new": "period ke turant baad",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "immediately != suddenly"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "GPTInst-030",
+   "field": "output_2",
+   "old": "customer engagement, higher conversion rates, aur overall business growth hua hai.",
+   "new": "customer engagement badha hai, conversion rates zyada hue hain, aur overall business growth hui hai.",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "restore \"increased\""
+  },
+  {
+   "variant": "hi_cm",
+   "id": "GPTInst-035",
+   "field": "output_1",
+   "old": "isme meri assist kar sakte hain?",
+   "new": "isme meri help kar sakte hain?",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "grammar"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "GPTInst-051",
+   "field": "output_2",
+   "old": "I hope yeh email aapko theek haalat mein mile.",
+   "new": "Umeed hai aap theek honge.",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "idiom \"finds you well\""
+  },
+  {
+   "variant": "hi_cm",
+   "id": "Natural-023",
+   "field": "output_1",
+   "old": "model data ke ek part se usi data ke doosre parts ko predict",
+   "new": "model usi data ke doosre parts se data ke ek part ko predict",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "reversed input/target"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "Natural-055",
+   "field": "output_1",
+   "old": "jise aap scrape karna chahte hain",
+   "new": "jise aap mujhse scrape karwana chahte hain",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "who scrapes"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "Natural-098",
+   "field": "output_2",
+   "old": "Panther zyadatar ek solitary species hai mammal ki jo Central aur South America mein paya jaata hai.",
+   "new": "Panther mammal ki ek zyadatar solitary species hai jo Central aur South America mein paayi jaati hai.",
+   "expected_count": 1,
+   "source": "A",
+   "rationale": "word order/grammar"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "Neighbor-085",
+   "field": "input",
+   "old": "Mere emails summarize karo jinka subject \"x\" hai",
+   "new": "Mere \"x\" topic ke baare mein emails summarize karo.",
+   "expected_count": 1,
+   "source": "B",
+   "rationale": "about subject x = topic, not subject line"
+  },
+  {
+   "variant": "hi_cm",
+   "id": "Neighbor-092",
+   "field": "output_2",
+   "old": "aappropriate",
+   "new": "appropriate",
+   "expected_count": "all",
+   "source": "A",
+   "rationale": "typo; EN \"not appropriate\""
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "hi_cm",
+   "id": "Natural-099",
+   "field": "output_1",
+   "source": "A",
+   "fix": "Woh moosladhaar baarish mein poori tarah bheeg gayi.",
+   "rationale": "Meaning already Yes; fix turns the code-mixed variant into pure Hindi, violating the hi_cm definition (30-50% English)."
+  },
+  {
+   "variant": "hi_deva",
+   "id": "GPTInst-010",
+   "field": "input",
+   "source": "A",
+   "fix": "घने जंगल की गहराई में एक जादुई महल",
+   "rationale": "Superseded by B; adds \"dense\", not in source."
+  },
+  {
+   "variant": "hi_deva",
+   "id": "Natural-067",
+   "field": "output_2",
+   "source": "A",
+   "fix": "अविश्वसनीय (unconvincing)",
+   "rationale": "Superseded by B; English gloss in parentheses would leak the source word."
+  }
+ ]
+}

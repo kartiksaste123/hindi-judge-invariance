@@ -51,6 +51,40 @@ for i, item in en.items():
                 else:
                     reasons[v][r] += 1
 
+# --- human adjudication layer (step 3) ---
+ratings_path = ROOT / "data" / "human_adjudication" / "ratings.jsonl"
+ratings = {}
+if ratings_path.exists():
+    for l in open(ratings_path):
+        r = json.loads(l)
+        ratings[(r["id"], r["variant"])] = r
+
+human_validated = {}
+for i, item in en.items():
+    if langdep[i]:
+        continue
+    # item-level drop if any variant has no texts in last trans record
+    if any("texts" not in (trans[v].get(i) or {}) for v in VARIANTS):
+        for v in VARIANTS:
+            status[(i, v)] = ("dropped_no_translation",
+                              status.get((i, v), (None, []))[1])
+        continue
+    for v in VARIANTS:
+        key = (i, v)
+        if key not in ratings:
+            continue
+        a, b = ratings[key]["A"], ratings[key]["B"]
+        t = trans[v].get(i) or {}
+        det_ok = "texts" in t and not t.get("failed_checks")
+        no_meaning_no = a.get("meaning") != "No" and b.get("meaning") != "No"
+        old_status, old_reasons = status[key]
+        if no_meaning_no and det_ok:
+            status[key] = ("pass", old_reasons)
+            human_validated[key] = True
+        else:
+            status[key] = ("needs_review", old_reasons)
+            human_validated[key] = False
+
 # write status.jsonl + final/
 with open(ROOT / "data" / "status.jsonl", "w") as f:
     for (i, v), (s, rs) in sorted(status.items()):
@@ -62,7 +96,12 @@ for v in VARIANTS:
     with open(final_dir / f"{v}.jsonl", "w") as f:
         for i, t in sorted(trans[v].items()):
             s, rs = status[(i, v)]
-            f.write(json.dumps({**t, "status": s, "reasons": rs}, ensure_ascii=False) + "\n")
+            rec = {**t, "status": s, "auto_reasons": rs}
+            if (i, v) in human_validated:
+                rec["human_validated"] = human_validated[(i, v)]
+            if t.get("human_fixed"):
+                rec["post_fix_verdict"] = (verify[v].get(i) or {}).get("verdict")
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 core = [i for i in en if all(status[(i, v)][0] == "pass" for v in VARIANTS) and not langdep[i]]
 (ROOT / "data" / "core_ids.txt").write_text("\n".join(core) + "\n")
@@ -146,6 +185,7 @@ for r, ivs in sorted(examples.items()):
 md += ["", f"## Calls", f"{calls_n} translation+verification calls logged total "
        f"(cumulative incl. pilot), {err_n} errors, "
        f"~{lat/60:.0f} min summed latency. See llm_calls.jsonl for per-call usage."]
-(ROOT / "results" / "step2_summary.md").write_text("\n".join(md))
+(ROOT / "results" / "step3_summary.md").write_text(
+    "\n".join(md).replace("Step 2 summary", "Step 3 summary (with human adjudication)", 1))
 print(json.dumps({v: dict(cnt[v]) for v in VARIANTS}))
 print("core_ids:", len(core), "| langdep items:", sum(langdep.values()))

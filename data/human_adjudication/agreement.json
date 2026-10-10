@@ -1,0 +1,104 @@
+{
+ "overall": {
+  "meaning": {
+   "n": 251,
+   "raw": 0.912,
+   "kappa": 0.188,
+   "AC1": 0.907,
+   "PABAK": 0.825
+  },
+  "label": {
+   "n": 251,
+   "raw": 0.976,
+   "kappa": 0.0,
+   "AC1": 0.976,
+   "PABAK": 0.952
+  },
+  "naturalness": {
+   "n": 251,
+   "exact": 0.669,
+   "within1": 0.996,
+   "quad_kappa_observed": 0.361,
+   "quad_kappa_1to5": 0.361,
+   "mean_A": 3.92,
+   "mean_B": 4.2
+  }
+ },
+ "per_variant": {
+  "hi_deva": {
+   "meaning": {
+    "n": 91,
+    "raw": 0.901,
+    "kappa": 0.271,
+    "AC1": 0.894,
+    "PABAK": 0.802
+   },
+   "label": {
+    "n": 91,
+    "raw": 0.967,
+    "kappa": 0.0,
+    "AC1": 0.966,
+    "PABAK": 0.934
+   },
+   "naturalness": {
+    "n": 91,
+    "exact": 0.582,
+    "within1": 0.989,
+    "quad_kappa_observed": 0.258,
+    "quad_kappa_1to5": 0.258,
+    "mean_A": 3.88,
+    "mean_B": 4.29
+   }
+  },
+  "hi_roman": {
+   "meaning": {
+    "n": 81,
+    "raw": 0.901,
+    "kappa": 0.167,
+    "AC1": 0.895,
+    "PABAK": 0.802
+   },
+   "label": {
+    "n": 81,
+    "raw": 0.988,
+    "kappa": 0.0,
+    "AC1": 0.988,
+    "PABAK": 0.975
+   },
+   "naturalness": {
+    "n": 81,
+    "exact": 0.654,
+    "within1": 1.0,
+    "quad_kappa_observed": 0.377,
+    "quad_kappa_1to5": 0.377,
+    "mean_A": 3.85,
+    "mean_B": 4.12
+   }
+  },
+  "hi_cm": {
+   "meaning": {
+    "n": 79,
+    "raw": 0.937,
+    "kappa": 0.0,
+    "AC1": 0.935,
+    "PABAK": 0.873
+   },
+   "label": {
+    "n": 79,
+    "raw": 0.975,
+    "kappa": 0.0,
+    "AC1": 0.974,
+    "PABAK": 0.949
+   },
+   "naturalness": {
+    "n": 79,
+    "exact": 0.785,
+    "within1": 1.0,
+    "quad_kappa_observed": 0.504,
+    "quad_kappa_1to5": 0.504,
+    "mean_A": 4.03,
+    "mean_B": 4.19
+   }
+  }
+ }
+}
